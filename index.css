@@ -1,0 +1,401 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: white; 
+  overflow: auto;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: 
+    radial-gradient(circle at 20% 50%, #005bc5, #8313ec 70%),
+    radial-gradient(circle at 80% 50%, #8313ec, #005bc5 70%),
+    radial-gradient(circle at 50% 20%, #005bc5, #8313ec 70%),
+    radial-gradient(circle at 50% 80%, #8313ec, #005bc5 70%);
+}
+
+.loading-container {
+  margin-bottom: 10px;
+  color: white; /* biały kolor napisu */
+  font-size: 48px; 
+  font-family: 'Baloo', sans-serif;
+}
+
+.progress-container {
+  width: 100px;
+  height: 10px;
+  background-color: white; /* białe tło dla paska postępu */
+  border-radius: 80px;
+  align-self: center;
+}
+
+.progress-bar {
+  height: 10px;
+  width: 0%;
+  background-color: black; /* czarny kolor wypełnienia paska */
+  border-radius: 80px;
+}
+
+.content {
+  display: none;
+  text-align: center;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.hidden {
+  display: none;
+}
+.drony1,
+.nieruchomoci,
+.online-marketing {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  cursor: pointer;
+  z-index: 2;
+}
+.drony1:hover,
+.facebookcomndm:hover,
+.kontakt1:hover,
+.ndmesssagmailcom10:hover,
+.nieruchomoci:hover,
+.online-marketing:hover {
+  color: var(--color-gray-100);
+}
+.drony1,
+.online-marketing {
+  z-index: 1;
+}
+.online-marketing {
+  z-index: 0;
+}
+.sites {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  z-index: 1;
+}
+.kontakt1 {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  text-align: right;
+  cursor: pointer;
+  z-index: 0;
+}
+.links3,
+.navbar3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.links3 {
+  margin: 0;
+  align-self: stretch;
+  flex-direction: row;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-baloo);
+}
+.navbar3 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 108px;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-21xl);
+  box-sizing: border-box;
+}
+.logo-1-icon {
+  position: relative;
+  width: 561.58px;
+  height: 600px;
+  object-fit: cover;
+}
+.logo-frame3,
+.logo3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.logo3 {
+  position: absolute;
+  height: 42.86%;
+  width: 100%;
+  top: 4.76%;
+  right: 0;
+  bottom: 52.38%;
+  left: 0;
+  overflow: hidden;
+}
+.figmap-1-icon {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+.map-frame {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ndmesssagmailcom10 {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  color: inherit;
+  z-index: 0;
+}
+.gmail10 {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+  cursor: pointer;
+  z-index: 5;
+}
+.logosfacebook-icon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.facebookcomndm {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  color: inherit;
+  z-index: 0;
+}
+.facebook,
+.instagram,
+.linkedin,
+.twitter {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+  cursor: pointer;
+  z-index: 4;
+}
+.instagram,
+.linkedin,
+.twitter {
+  z-index: 3;
+}
+.linkedin,
+.twitter {
+  z-index: 2;
+}
+.linkedin {
+  z-index: 1;
+}
+.a {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  color: inherit;
+  z-index: 0;
+}
+.a:hover {
+  color: var(--color-whitesmoke-100);
+}
+.phone10 {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+  cursor: pointer;
+  z-index: 0;
+}
+.linki {
+  flex-direction: column;
+  gap: var(--gap-13xl);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-baloo);
+}
+.contact,
+.contact-2,
+.linki {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-2 {
+  flex-direction: row;
+  gap: var(--gap-45xl);
+}
+.contact {
+  position: absolute;
+  height: 47.62%;
+  width: 100%;
+  top: 47.62%;
+  right: 0.08%;
+  bottom: 4.76%;
+  left: -0.08%;
+  overflow: hidden;
+  flex-direction: column;
+}
+.copyright-20233 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+}
+.footer3,
+.glowna {
+  width: 100%;
+  overflow: hidden;
+}
+.footer3 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 108px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-95xl) 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-baloo);
+}
+.glowna {
+  position: relative;
+  height: 2268px;
+  background-image: url(./public/glowna@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+@media screen and (max-width: 1200px) {
+  .navbar3 {
+    width: auto;
+    align-self: unset;
+    height: auto;
+    flex-direction: column;
+    padding: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .logosfacebook-icon {
+    width: 30px;
+    height: 30px;
+  }
+}
+#progress {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  height: 70px;
+  width: 70px;
+  display: none;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  z-index: 1000;
+}
+
+#progress-value {
+  display: block;
+  height: calc(100% - 15px);
+  width: calc(100% - 15px);
+  background-color: #000000;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 35px;
+  color: #ffffff;
+}
+@media screen and (max-width: 960px) {
+  .sites {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+  }
+  .contact-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar3 {
+    height: 166px;
+    padding-left: var(--padding-3xs);
+    padding-right: var(--padding-3xs);
+    box-sizing: border-box;
+  }
+  .figmap-1-icon,
+  .logo-1-icon,
+  .logo-frame3 {
+    width: 300px;
+    height: 300px;
+  }
+  .ndmesssagmailcom10 {
+    font-size: var(--font-size-13xl);
+  }
+  .linki {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .copyright-20233 {
+    font-size: var(--font-size-base);
+  }
+}
+@media screen and (max-width: 420px) {
+  .navbar3 {
+    padding-left: var(--padding-3xs);
+    padding-right: var(--padding-3xs);
+    box-sizing: border-box;
+  }
+  .a,
+  .facebookcomndm,
+  .ndmesssagmailcom10 {
+    font-size: var(--font-size-5xl);
+  }
+  .a {
+    text-align: left;
+  }
+  .linki {
+    padding-left: 100px;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .contact,
+  .linki {
+    align-items: center;
+    justify-content: center;
+  }
+  .copyright-20233 {
+    font-size: var(--font-size-base);
+  }
+}

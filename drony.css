@@ -1,0 +1,664 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: white; 
+  overflow: auto;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: 
+    radial-gradient(circle at 20% 50%, #005bc5, #8313ec 70%),
+    radial-gradient(circle at 80% 50%, #8313ec, #005bc5 70%),
+    radial-gradient(circle at 50% 20%, #005bc5, #8313ec 70%),
+    radial-gradient(circle at 50% 80%, #8313ec, #005bc5 70%);
+}
+
+.loading-container {
+  margin-bottom: 10px;
+  color: white; /* biały kolor napisu */
+  font-size: 48px; 
+  font-family: 'Baloo', sans-serif;
+}
+
+.progress-container {
+  width: 100px;
+  height: 10px;
+  background-color: white; /* białe tło dla paska postępu */
+  border-radius: 80px;
+  align-self: center;
+}
+
+.progress-bar {
+  height: 10px;
+  width: 0%;
+  background-color: black; /* czarny kolor wypełnienia paska */
+  border-radius: 80px;
+}
+
+.content {
+  display: none;
+  text-align: center;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.no-scroll {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+.filmy-z-drona,
+.inspekcj-dron,
+.monta-filmw,
+.obrbka-zdj,
+.zdjcia-z-drona {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  cursor: pointer;
+  z-index: 4;
+}
+.filmy-z-drona:hover,
+.inspekcj-dron:hover,
+.zdjcia-z-drona:hover {
+  color: var(--color-gray-100);
+}
+.inspekcj-dron,
+.monta-filmw,
+.obrbka-zdj,
+.zdjcia-z-drona {
+  z-index: 3;
+}
+.inspekcj-dron,
+.monta-filmw,
+.obrbka-zdj {
+  z-index: 2;
+}
+.monta-filmw,
+.obrbka-zdj {
+  z-index: 1;
+}
+.monta-filmw:hover {
+  color: rgba(247, 247, 247, 0.5);
+}
+.obrbka-zdj {
+  z-index: 0;
+}
+.ndmesssagmailcom3:hover,
+.obrbka-zdj:hover {
+  color: var(--color-gray-100);
+}
+.topics1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  z-index: 1;
+}
+.vector-icon1 {
+  position: relative;
+  width: 66.67px;
+  height: 60px;
+  cursor: pointer;
+  z-index: 0;
+}
+.links1,
+.navbar1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.links1 {
+  margin: 0;
+  align-self: stretch;
+  flex-direction: row;
+  z-index: 0;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-baloo);
+}
+.navbar1 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 108px;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-21xl);
+  box-sizing: border-box;
+}
+.logo-d-1 {
+  position: relative;
+  width: 566.75px;
+  height: 600px;
+  object-fit: cover;
+}
+.logo-frame1,
+.logo1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.logo-frame1 {
+  z-index: 0;
+}
+.logo1 {
+  position: absolute;
+  height: 14.75%;
+  width: 100%;
+  top: 1.64%;
+  right: 0;
+  bottom: 83.61%;
+  left: 0;
+  overflow: hidden;
+}
+.filmy-z-drona1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  width: 290px;
+}
+.niesamowite-ujcia-z {
+  margin: 0;
+  font-weight: 900;
+}
+.oferuje-spektakularne-ujcia-z {
+  margin: 0;
+  font-size: var(--font-size-base);
+  padding-left: var(--padding-2xl);
+}
+.niesamowite-ujcia-z-container {
+  position: relative;
+  display: inline-block;
+  width: 623px;
+}
+.wykorzystuje-zaawansowane-tech1 {
+  margin-bottom: 0;
+}
+.tekst3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-13xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.unsplash72ayeebjpz4-icon {
+  position: relative;
+  border-radius: var(--br-xl);
+  width: 448px;
+  height: 448px;
+  object-fit: cover;
+}
+.content-33 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-45xl);
+}
+.logosgoogle-gmail-icon3 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.ndmesssagmailcom3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-baloo);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.fast-contact3,
+.gmail3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.gmail3 {
+  gap: var(--gap-11xl);
+  cursor: pointer;
+}
+.fast-contact3 {
+  gap: var(--gap-13xl);
+}
+.content-23 {
+  gap: var(--gap-45xl);
+}
+.content-13,
+.content-23,
+.topic-21 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content-13 {
+  gap: var(--gap-45xl);
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--font-baloo);
+}
+.topic-21 {
+  position: absolute;
+  height: calc(100% - 5508px);
+  width: 100%;
+  top: 1080px;
+  right: 0;
+  bottom: 4428px;
+  left: 0;
+  overflow: hidden;
+  padding: 172px 139px;
+  box-sizing: border-box;
+}
+.zdjcia-z-drona1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.wyjtkowe-ujcia-z-container,
+.wykorzystanie-w-rnych-container {
+  position: relative;
+  display: inline-block;
+  width: 620px;
+}
+.wykorzystanie-w-rnych-container {
+  width: 619px;
+}
+.ndmesssagmailcom4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-baloo);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.ndmesssagmailcom4:hover {
+  color: rgba(255, 255, 254, 0.5);
+}
+.topic-22 {
+  position: absolute;
+  height: calc(100% - 5508px);
+  width: 100%;
+  top: 2160px;
+  right: 0;
+  bottom: 3348px;
+  left: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 173px 80px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.inspekcjmonitorowanie-z-dron {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.szybka-i-skuteczna-container {
+  position: relative;
+  display: inline-block;
+  width: 622px;
+}
+.topic-23 {
+  position: absolute;
+  height: calc(100% - 5508px);
+  width: 100%;
+  top: 3240px;
+  right: 0;
+  bottom: 2268px;
+  left: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 146px 140px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.monta-filmw-przedstawiajcyc {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  width: 1146px;
+}
+.profesjonalne-prezentacje-nier-container {
+  position: relative;
+  display: inline-block;
+  width: 586px;
+}
+.tekst6,
+.topic-24 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tekst6 {
+  gap: var(--gap-13xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.topic-24 {
+  position: absolute;
+  height: calc(100% - 5508px);
+  width: 100%;
+  top: 4320px;
+  right: 0;
+  bottom: 1188px;
+  left: 0;
+  overflow: hidden;
+  padding: 159px 110px;
+  box-sizing: border-box;
+}
+.poprawa-jakoci-i-container {
+  position: relative;
+  display: inline-block;
+  width: 587px;
+}
+.topic-25 {
+  position: absolute;
+  height: calc(100% - 5508px);
+  width: 100%;
+  top: 5400px;
+  right: 0;
+  bottom: 108px;
+  left: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 201px 152px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.copyright-20231 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+}
+.drony,
+.footer1 {
+  width: 100%;
+  overflow: hidden;
+}
+.footer1 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 108px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-95xl) 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-baloo);
+}
+.drony {
+  position: relative;
+  height: 6588px;
+  background-image: url(./public/drony@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+#progress {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  height: 70px;
+  width: 70px;
+  display: none;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  z-index: 1000;
+}
+
+#progress-value {
+  display: block;
+  height: calc(100% - 15px);
+  width: calc(100% - 15px);
+  background-color: #000000;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 35px;
+  color: #ffffff;
+}
+@media screen and (max-width: 1200px) {
+  .filmy-z-drona,
+  .inspekcj-dron,
+  .zdjcia-z-drona {
+    font-size: var(--font-size-5xl);
+  }
+  .navbar1 {
+    gap: 0;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .filmy-z-drona1 {
+    font-size: var(--font-size-21xl);
+  }
+  .niesamowite-ujcia-z-container,
+  .tekst3 {
+    width: 525px;
+  }
+  .unsplash72ayeebjpz4-icon {
+    width: 350px;
+    height: 350px;
+  }
+  .zdjcia-z-drona1 {
+    font-size: var(--font-size-21xl);
+  }
+  .wyjtkowe-ujcia-z-container,
+  .wykorzystanie-w-rnych-container {
+    width: 525px;
+  }
+  .inspekcjmonitorowanie-z-dron {
+    font-size: var(--font-size-21xl);
+  }
+  .szybka-i-skuteczna-container {
+    width: 525px;
+  }
+  .monta-filmw-przedstawiajcyc {
+    font-size: var(--font-size-21xl);
+  }
+  .poprawa-jakoci-i-container,
+  .profesjonalne-prezentacje-nier-container {
+    width: 525px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .topics1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .filmy-z-drona,
+  .inspekcj-dron,
+  .monta-filmw,
+  .obrbka-zdj,
+  .zdjcia-z-drona {
+    font-size: var(--font-size-base);
+  }
+  .navbar1 {
+    width: auto;
+    align-self: unset;
+    height: auto;
+    padding: var(--padding-3xs);
+    box-sizing: border-box;
+  }
+  .logo-d-1 {
+    width: 300px;
+    height: 300px;
+  }
+  .logo1 {
+    height: 806px;
+  }
+  .filmy-z-drona1 {
+    font-size: var(--font-size-13xl);
+    width: 400px;
+  }
+  .niesamowite-ujcia-z-container {
+    font-size: var(--font-size-base);
+    width: 400px;
+  }
+  .tekst3 {
+    width: 400px;
+  }
+  .unsplash72ayeebjpz4-icon {
+    display: none;
+  }
+  .ndmesssagmailcom3 {
+    font-size: var(--font-size-5xl);
+  }
+  .fast-contact3 {
+    flex-direction: column;
+  }
+  .content-13 {
+    gap: var(--gap-13xl);
+  }
+  .zdjcia-z-drona1 {
+    font-size: var(--font-size-13xl);
+    width: 400px;
+  }
+  .wyjtkowe-ujcia-z-container,
+  .wykorzystanie-w-rnych-container {
+    font-size: var(--font-size-base);
+    width: 400px;
+  }
+  .ndmesssagmailcom4 {
+    font-size: var(--font-size-5xl);
+  }
+  .inspekcjmonitorowanie-z-dron {
+    font-size: var(--font-size-13xl);
+    width: 400px;
+  }
+  .szybka-i-skuteczna-container {
+    font-size: var(--font-size-base);
+    width: 400px;
+  }
+  .monta-filmw-przedstawiajcyc {
+    font-size: var(--font-size-13xl);
+    width: 400px;
+  }
+  .poprawa-jakoci-i-container,
+  .profesjonalne-prezentacje-nier-container {
+    font-size: var(--font-size-base);
+    width: 400px;
+  }
+  .copyright-20231 {
+    font-size: var(--font-size-base);
+  }
+}
+@media screen and (max-width: 420px) {
+  .logo1 {
+    height: 806px;
+  }
+  .filmy-z-drona1 {
+    font-size: var(--font-size-13xl);
+    width: 350px;
+  }
+  .niesamowite-ujcia-z-container,
+  .tekst3 {
+    width: 340px;
+  }
+  .tekst3 {
+    padding-left: var(--padding-3xs);
+    box-sizing: border-box;
+  }
+  .content-13,
+  .tekst3 {
+    gap: var(--gap-base);
+  }
+  .zdjcia-z-drona1 {
+    font-size: var(--font-size-13xl);
+    width: 350px;
+  }
+  .wyjtkowe-ujcia-z-container,
+  .wykorzystanie-w-rnych-container {
+    width: 340px;
+  }
+  .inspekcjmonitorowanie-z-dron {
+    font-size: var(--font-size-13xl);
+    width: 340px;
+    flex: 1;
+  }
+  .szybka-i-skuteczna-container {
+    width: 340px;
+  }
+  .monta-filmw-przedstawiajcyc {
+    font-size: var(--font-size-13xl);
+    width: 340px;
+  }
+  .profesjonalne-prezentacje-nier-container {
+    width: 340px;
+  }
+  .tekst6 {
+    gap: var(--gap-base);
+    padding-left: var(--padding-3xs);
+    box-sizing: border-box;
+  }
+  .poprawa-jakoci-i-container,
+  .tekst6 {
+    width: 340px;
+  }
+  .content-33 {
+    gap: 8px;
+}
+.content-23 {
+  gap: 16px;
+}
+}
