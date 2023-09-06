@@ -189,6 +189,8 @@ body {
   color: inherit;
   z-index: 0;
 }
+.youtube,
+.tiktok,
 .facebook,
 .instagram,
 .linkedin,
@@ -397,5 +399,8 @@ body {
   }
   .copyright-20233 {
     font-size: var(--font-size-base);
+  }
+  .contact-2 {
+    gap: 0px;
   }
 }
