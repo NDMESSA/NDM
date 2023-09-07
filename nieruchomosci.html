@@ -29,33 +29,25 @@
   <link rel="icon" type="image/png" sizes="16x16" href="./public/favicon-16x16.png">
   <link rel="canonical" href="https://ndmessa.pl/nieruchomosci.html">
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "Usługi pośrednictwa nieruchomości w NDM",
-    "description": "Pomoc w przygotowaniu nieruchomości do sprzedaży, wsparcie w poszukiwaniu wymarzonej nieruchomości i doradztwo w zakresie nieruchomości. Zobacz, co wyróżnia NDM!",
-    "telephone": "791 762 258",
-    "url": "https://ndmessa.pl/nieruchomosci.html",
-    "image": "https://ndmessa.pl/public/logo-1@2x.png",
-    "areaServed": {
-      "@type": "City",
-      "name": "Rabka Zdrój"
-    },
-    "serviceType": ["Przygotowanie nieruchomości do sprzedaży", "Pomoc w poszukiwaniu nieruchomości", "Doradztwo w zakresie nieruchomości"],
-    "provider": {
-      "@type": "Organization",
-      "name": "NDM",
-      "telephone": "791 762 258",
-      "logo": "https://ndmessa.pl/public/logo-1@2x.png",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Rabka Zdrój",
-        "postalCode": "34-700",
-        "addressCountry": "PL"
-      }
-    }
-  }
-  </script>
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "NDM - Usługi pośrednictwa nieruchomości",
+  "description": "Pomoc w przygotowaniu nieruchomości do sprzedaży, wsparcie w poszukiwaniu wymarzonej nieruchomości i doradztwo w zakresie nieruchomości. Zobacz, co wyróżnia NDM!",
+  "url": "https://ndmessa.pl/nieruchomosci.html",
+  "image": "https://ndmessa.pl/public/logo-1@2x.png",
+  "priceRange": "10zł - 1000zł",
+  "telephone": "791 762 258",
+  "email": "ndmesssa@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Rabka Zdrój",
+    "addressRegion": "Małopolskie",
+    "postalCode": "34-700",
+    "addressCountry": "PL"
+  }  
+}
+</script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-NF9BYDB98H"></script>
   <script> 
     window.dataLayer = window.dataLayer || []; 
@@ -73,7 +65,9 @@
     </div>
  </div>
  <div class="content" id="contentArea" style="display: none;">
-   <div class="nieruchomosci" itemscope itemtype="http://schema.org/ProfessionalService">
+   <div class="nieruchomosci">
+     <span itemprop="priceRange" class="hidden-seo">50zł - 5000zł</span>
+    </div>
       <header class="navbar2">
           <nav class="links2">
               <div class="topics2">
@@ -88,12 +82,15 @@
             <img class="logo-icon" alt="Główne logo firmy NDM prezentujące trzy główne obszary działalności: nieruchomości, drony i online marketing" src="./public/logo@2x.png">
         </div>
       </main>
-      <div class="topic-11" data-scroll-to="topic11" itemprop="serviceOutput">
+      <div class="topic-11" data-scroll-to="topic11">
         <section class="content-18">
             <h1 class="porednictwo-nieruchomoci" itemprop="name">Przygotowanie nieruchomości do sprzedaży</h1>
-            <div class="content-28">
+            <div div itemprop="address" itemtype="http://schema.org/PostalAddress" class="content-28">
+              <span itemprop="postalCode" class="hidden-seo"">34-700</span>
+              <span itemprop="addressLocality" class="hidden-seo">Rabka Zdrój</span>
+              <span itemprop="addressCountry" class="hidden-seo">PL</span>
                 <div class="content-38">
-                    <img class="unsplash4ojhpgkps68-icon" alt="Przykład nieruchomości pośredniczonej przez NDM" src="./public/unsplash4ojhpgkps68@2x.png">
+                    <img class="unsplash4ojhpgkps68-icon" itemprop="image" alt="Przykład nieruchomości pośredniczonej przez NDM" src="./public/unsplash4ojhpgkps68@2x.png">
                     <article class="tekst8">
                       <div class="co-wyrnia-mnie-container">
                         <h2 class="hidden">Wyróżniki mojej oferty</h2>
@@ -121,7 +118,6 @@
                     </article>
                 </div>
             <section class="fast-contact8" itemscope itemtype="http://schema.org/ContactPoint">
-              <meta itemprop="contactType" content="customer service">
               <h3 class="hidden">Kontakt</h3>
               <div class="gmail8" id="gmailContainer">
                 <img  class="logosgoogle-gmail-icon8"  alt="Ikona serwisu Gmail dla kontaktu emailowego z firmą NDM" src="./public/logosgooglegmail1.svg">
@@ -135,7 +131,7 @@
           </div>
         </section>
       </div>
-      <div class="topic-12" data-scroll-to="topic12" itemprop="serviceOutput">
+      <div class="topic-12" data-scroll-to="topic12">
         <section class="content-18">
           <h2 class="porednictwo-nieruchomoci" itemprop="name">Pomoc w znalezieniu nieruchomości</h2>
           <div class="content-28">
@@ -153,10 +149,9 @@
                   </ul>
                 </div>
               </article>
-              <img  class="unsplash4ojhpgkps68-icon"  alt="Doradztwo w zakresie nieruchomości"  src="./public/unsplashtkpk7rsvvtq@2x.png">
+              <img  class="unsplash4ojhpgkps68-icon" itemprop="image" alt="Doradztwo w zakresie nieruchomości"  src="./public/unsplashtkpk7rsvvtq@2x.png">
             </div>
             <section class="fast-contact8" itemscope itemtype="http://schema.org/ContactPoint">
-              <meta itemprop="contactType" content="customer service">
               <h4 class="hidden">Kontakt</h4>
               <div class="gmail8" id="gmailContainer1">
                 <img  class="logosgoogle-gmail-icon8"  alt="Ikona serwisu Gmail dla kontaktu emailowego z firmą NDM"  src="./public/logosgooglegmail1.svg">
