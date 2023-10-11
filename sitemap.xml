@@ -6,22 +6,4 @@
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
-    <url>
-        <loc>https://ndmessa.pl/nieruchomosci.html</loc>
-        <lastmod>2023-09-06</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://ndmessa.pl/drony.html</loc>
-        <lastmod>2023-09-06</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://ndmessa.pl/onlinemarketing.html</loc>
-        <lastmod>2023-09-06</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
 </urlset>
