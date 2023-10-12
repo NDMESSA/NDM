@@ -152,7 +152,7 @@
 .page1 {
   flex-direction: column;
   justify-content: flex-start;
-  background-image: url(./public/page1@3x.png);
+  background-image: url(./public/page1@3x.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -196,7 +196,7 @@
   align-items: center;
   justify-content: center;
   gap: var(--gap-41xl);
-  background-image: url(./public/page21@3x.png);
+  background-image: url(./public/page21@3x.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -301,7 +301,7 @@
   flex-shrink: 0;
   flex-direction: column;
   gap: var(--gap-41xl);
-  background-image: url(./public/page24@3x.png);
+  background-image: url(./public/page24@3x.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -383,7 +383,7 @@
   gap: var(--gap-41xl);
 }
 .page3 {
-  background-image: url(./public/page3@3x.png);
+  background-image: url(./public/page3@3x.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -414,7 +414,7 @@
   padding: var(--padding-11xl) 0 var(--padding-11xl) var(--padding-11xl);
   box-sizing: border-box;
   gap: var(--gap-41xl);
-  background-image: url(./public/page41@3x.png);
+  background-image: url(./public/page41@3x.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -511,7 +511,7 @@
   padding: var(--padding-11xl) var(--padding-11xl) var(--padding-11xl) 0;
   box-sizing: border-box;
   gap: var(--gap-41xl);
-  background-image: url(./public/page44@3x.png);
+  background-image: url(./public/page44@3x.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -582,7 +582,7 @@
   flex-shrink: 0;
   padding: 0 var(--padding-11xl);
   box-sizing: border-box;
-  background-image: url(./public/page52@3x.png);
+  background-image: url(./public/page52@3x.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -630,7 +630,7 @@
   padding: var(--padding-11xl) var(--padding-11xl) var(--padding-11xl) 0;
   box-sizing: border-box;
   gap: var(--gap-41xl);
-  background-image: url(./public/page62@3x.png);
+  background-image: url(./public/page62@3x.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -708,7 +708,7 @@
   flex-shrink: 0;
   padding: var(--padding-11xl) 0 var(--padding-11xl) var(--padding-11xl);
   box-sizing: border-box;
-  background-image: url(./public/page63@3x.png);
+  background-image: url(./public/page63@3x.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -761,7 +761,7 @@
   padding: 0 var(--padding-11xl);
   box-sizing: border-box;
   gap: var(--gap-41xl);
-  background-image: url(./public/page7frame1@3x.png);
+  background-image: url(./public/page7frame1@3x.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
