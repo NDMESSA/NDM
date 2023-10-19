@@ -1,16 +1,8 @@
 .output-onlinepngtools-1-icon {
   position: relative;
-  width: 89.92px;
-  height: 96px;
+  width: 100px;
+  height: 106.76px;
   object-fit: cover;
-}
-.logoframe1 {
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  z-index: 1;
 }
 .kontakt1 {
   text-decoration: none;
@@ -22,7 +14,8 @@
   color: rgba(0, 0, 0, 0.5);
 }
 .kontakt,
-.kontaktframe1 {
+.navbar1,
+.navbarkontakt {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -36,806 +29,537 @@
   cursor: pointer;
   z-index: 0;
 }
-.kontaktframe1 {
-  margin: 0;
+.navbar1,
+.navbarkontakt {
   align-self: stretch;
+}
+.navbarkontakt {
+  margin: 0;
+  flex: 1;
   justify-content: flex-end;
   text-align: left;
   font-size: var(--font-size-5xl);
   color: var(--color-black);
   font-family: var(--font-roboto);
 }
-.navbartop,
-.przygotowanie,
-.szukanie {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.navbartop {
-  align-self: stretch;
-  height: 108px;
-  overflow: hidden;
-  flex-shrink: 0;
-  flex-direction: column;
-  padding: var(--padding-xl) 79px;
+.navbar1 {
+  height: 100px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xl);
   box-sizing: border-box;
 }
-.przygotowanie,
-.szukanie {
+.przygotowanie-nieruchomoci {
+  position: relative;
+  font-weight: 900;
+}
+.filmy-promocyjne:hover,
+.ndmesssagmailcom:hover,
+.online-marketing:hover,
+.przygotowanie-nieruchomoci:hover {
+  color: var(--color-gray-200);
+}
+.uslugi {
   border-radius: var(--br-61xl);
-  border: 1px solid var(--color-white);
+  background-color: var(--color-black);
+  border: 1px solid var(--color-black);
+  display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs);
+  cursor: pointer;
+  z-index: 3;
+}
+.filmy-promocyjne {
+  position: relative;
+  font-weight: 900;
+}
+.uslugi1,
+.uslugi2 {
+  border-radius: var(--br-61xl);
+  background-color: var(--color-black);
+  border: 1px solid var(--color-black);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   padding: var(--padding-5xs);
   cursor: pointer;
   z-index: 2;
 }
-.szukanie {
+.uslugi2 {
   z-index: 1;
 }
-.monta {
-  text-decoration: none;
+.online-marketing {
   position: relative;
-  font-weight: 900;
-  color: inherit;
 }
-.a:hover,
-.monta:hover {
-  color: var(--color-gray-200);
+.navbarkontakt1,
+.uslugi3 {
+  flex-direction: row;
+  justify-content: center;
 }
-.montaz {
+.uslugi3 {
   border-radius: var(--br-61xl);
-  border: 1px solid var(--color-white);
+  background-color: var(--color-black);
+  border: 1px solid var(--color-black);
+  display: flex;
+  align-items: center;
   padding: var(--padding-5xs);
   cursor: pointer;
   z-index: 0;
 }
-.links1,
-.montaz,
-.sites1 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-.sites1 {
-  width: 732px;
-  gap: var(--gap-base);
-  z-index: 0;
-}
-.links1 {
+.navbarkontakt1 {
   margin: 0;
-  width: 1041px;
+  flex: 1;
+  gap: var(--gap-11xl);
   text-align: left;
-  font-size: var(--font-size-5xl);
+  font-size: var(--font-size-11xl);
   color: var(--color-white);
   font-family: var(--font-roboto);
 }
-.navbarbottom,
-.specjalizuj-si-w {
+.h1frame,
+.navbarkontakt1,
+.page1,
+.przygotowanie-nieruchomoci-do {
+  align-self: stretch;
   display: flex;
   align-items: center;
-  flex-shrink: 0;
-}
-.navbarbottom {
-  align-self: stretch;
-  height: 149px;
-  overflow: hidden;
-  flex-direction: column;
-  justify-content: center;
-  padding: var(--padding-xl) 40px;
-  box-sizing: border-box;
-  gap: 20px;
-}
-.specjalizuj-si-w {
-  margin: 0;
-  position: relative;
-  font-size: inherit;
-  font-weight: 500;
-  font-family: inherit;
-  width: 1000px;
-}
-.logoframe,
-.page1 {
-  align-self: stretch;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-}
-.logoframe {
-  background-color: var(--color-gray-100);
-  height: 823px;
-  flex-shrink: 0;
-  flex-direction: row;
-  justify-content: center;
-}
-.page1 {
-  flex-direction: column;
-  justify-content: flex-start;
-  background-image: url(./public/page1@3x.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  text-align: left;
-  font-size: var(--font-size-5xl);
-  color: var(--color-white);
-  font-family: var(--font-roboto);
 }
 .przygotowanie-nieruchomoci-do {
   margin: 0;
+  flex: 1;
   position: relative;
   font-size: inherit;
   font-weight: 900;
   font-family: inherit;
+}
+.h1frame,
+.page1 {
+  overflow: hidden;
+  flex-direction: column;
+}
+.h1frame {
+  background-color: var(--color-white);
+  height: 1280px;
+  flex-shrink: 0;
+  justify-content: center;
+  opacity: 0;
+}
+.page1 {
+  justify-content: flex-start;
+  padding: var(--padding-11xl) 0;
+  background-image: url(./public/page1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+  position: relative;
+  overflow: hidden;
+  z-index: 0; 
+}
+video.bgvid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  z-index: -2;      
+}
+.planujesz-sprzeda-lub {
+  position: relative;
+  font-weight: 500;
+  width: 700px;
+  flex-shrink: 0;
+}
+.co-oferuj,
+.planujesz-sprzeda-lub,
+.planujesz-sprzeda-lub-wynaj-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 500px;
 }
-.kim-jestem {
+.planujesz-sprzeda-lub-wynaj-wrapper {
+  border-radius: var(--br-61xl);
+  background-color: var(--color-white);
+  flex-direction: row;
+  padding: var(--padding-xl);
+  color: var(--color-black);
+}
+.co-oferuj {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  font-weight: 900;
+  font-family: inherit;
+  width: 700px;
+}
+.blank-line {
+  margin: 0;
+  font-weight: 500;
+}
+.filmiki-promocyjne-z {
+  font-weight: 900;
+  font-family: var(--font-roboto);
+}
+.dziki-nim-twoja {
+  font-weight: 500;
+}
+.filmiki-promocyjne-z-drona-dz {
   margin: 0;
 }
-.kim-jestem-nie-reprezentuj-container1 {
+.filmiki-promocyjne-z-container1 {
   line-break: anywhere;
   width: 100%;
 }
-.kim-jestem-nie-reprezentuj-container {
-  position: relative;
-  font-size: var(--font-size-base);
-  display: flex;
-  align-items: center;
-  width: 500px;
-}
-.page21 {
-  align-self: stretch;
-  height: 500px;
-  overflow: hidden;
+.filmiki-promocyjne-z-container {
   flex-shrink: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: var(--gap-41xl);
-  background-image: url(./public/page21@3x.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  text-align: center;
-  font-size: var(--font-size-5xl);
-  color: var(--color-white);
-  font-family: var(--font-roboto);
 }
-.planujesz-sprzeda-nieruchomo {
+.dlaczego-warto-mi-container,
+.filmiki-promocyjne-z-container,
+.nie-jestem-porednikiem {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 700px;
+}
+.dlaczego-warto-mi-container {
+  margin: 0;
+  font-size: var(--font-size-11xl);
   font-weight: 900;
+  font-family: inherit;
+  height: 79px;
+  flex-shrink: 0;
 }
-.brak-prowizji-dziaam-container,
-.planujesz-sprzeda-nieruchomo {
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: 500px;
+.nie-jestem-porednikiem {
+  font-weight: 500;
+  text-align: left;
 }
-.page22,
-.page2frame1 {
+.main,
+.text21frame {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.page22 {
-  align-self: stretch;
-  background-color: var(--color-black);
-  height: 500px;
-  overflow: hidden;
-  flex-shrink: 0;
-  gap: var(--gap-11xl);
-  text-align: left;
-  font-size: var(--font-size-base);
-  color: var(--color-white);
-  font-family: var(--font-roboto);
+.text21frame {
+  height: 1236px;
+  gap: var(--gap-mini);
 }
-.page2frame1 {
+.main {
   flex: 1;
-}
-.jak-przebiega-nasza,
-.pierwszym-krokiem-jest-container {
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: 500px;
-}
-.jak-przebiega-nasza {
-  margin: 0;
-  font-size: inherit;
-  font-weight: 900;
-  font-family: inherit;
-  justify-content: center;
-}
-.pierwszym-krokiem-jest-container {
-  text-align: left;
-}
-.page23 {
-  align-self: stretch;
   background-color: var(--color-black);
-  height: 500px;
+  height: 1440px;
   overflow: hidden;
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: var(--gap-11xl);
   text-align: center;
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-6xl);
   color: var(--color-white);
   font-family: var(--font-roboto);
 }
-.dodatkowa-korzy,
-.kady-klient-ktry-container {
+.googlemap {
   position: relative;
-  display: flex;
-  align-items: center;
-}
-.dodatkowa-korzy {
-  margin: 0;
-  font-size: inherit;
-  font-weight: 900;
-  font-family: inherit;
-  justify-content: center;
-  width: 292px;
-}
-.kady-klient-ktry-container {
-  font-size: var(--font-size-base);
+  background-color: var(--color-gray-100);
   width: 500px;
-}
-.page2,
-.page24 {
-  align-self: stretch;
+  height: 435px;
   overflow: hidden;
+  flex-shrink: 0;
+}
+.main1,
+.page2 {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.page24 {
-  height: 500px;
-  flex-shrink: 0;
+.main1 {
+  flex: 1;
+  background-color: var(--color-black);
+  height: 1440px;
+  overflow: hidden;
   flex-direction: column;
-  gap: var(--gap-41xl);
-  background-image: url(./public/page24@3x.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  text-align: center;
-  font-size: var(--font-size-5xl);
-  color: var(--color-white);
-  font-family: var(--font-roboto);
 }
 .page2 {
-  flex-direction: row;
-}
-.profesjonalna-pomoc-w {
-  margin: 0;
-  position: relative;
-  font-size: var(--font-size-5xl);
-  font-weight: 900;
-  font-family: inherit;
-}
-.czy-idealny-dom {
-  position: relative;
-  font-size: var(--font-size-base);
-  display: flex;
-  align-items: center;
-  width: 1000px;
-}
-.jako-ekspert-w {
-  margin-bottom: 0;
-}
-.jako-ekspert-w-dziedzinie-nier {
-  margin: 0;
-  padding-left: var(--padding-2xl);
-}
-.dlaczego-warto-powierzy-container {
-  flex: 1;
-  position: relative;
-}
-.szukanieframe1 {
-  width: 1000px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  gap: var(--gap-11xl);
-  font-family: var(--font-inherit);
-}
-.dlaczego-warto-powierzy-container1,
-.jak-przebiega-proces-container1 {
-  margin: 0;
-  flex: 1;
-  position: relative;
-  font-size: inherit;
-  font-weight: 400;
-  font-family: inherit;
-}
-.szukanieframe11 {
-  width: 1000px;
-  display: none;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  gap: var(--gap-11xl);
-  font-family: var(--font-inherit);
-}
-.page3,
-.page3frame1 {
   align-self: stretch;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.page3frame1 {
-  background-color: var(--color-gray-100);
-  height: 750px;
-  flex-shrink: 0;
-  padding: 0 var(--padding-11xl);
-  box-sizing: border-box;
-  gap: var(--gap-41xl);
-}
-.page3 {
-  background-image: url(./public/page3@3x.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  text-align: left;
-  font-size: var(--font-inherit);
-  color: var(--color-white);
-  font-family: var(--font-roboto);
-}
-.profesjonalny-monta-filmw {
-  margin: 0;
-  position: relative;
-  font-size: inherit;
-  font-weight: 900;
-  font-family: inherit;
-}
-.szukasz-eksperta-od {
-  font-weight: 900;
-}
-.page41 {
-  align-self: stretch;
-  height: 500px;
-  overflow: hidden;
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-11xl) 0 var(--padding-11xl) var(--padding-11xl);
-  box-sizing: border-box;
-  gap: var(--gap-41xl);
-  background-image: url(./public/page41@3x.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  text-align: left;
-  font-size: var(--font-size-5xl);
-  color: var(--color-white);
-  font-family: var(--font-roboto);
+  flex-direction: row;
 }
 .filmy-promocyjne-dla {
-  font-weight: 900;
-}
-.filmy-promocyjne-dla,
-.moje-filmy-promocyjne {
-  font-family: var(--font-roboto);
-}
-.filmy-dla-domkw-do-wynajcia {
   margin: 0;
-  font-size: var(--font-size-base);
-  padding-left: var(--padding-2xl);
-}
-.promocja-twojej-oferty-container {
   position: relative;
-  display: flex;
-  align-items: center;
-  width: 500px;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+  width: 1880px;
 }
-.page43 {
-  align-self: stretch;
-  background-color: var(--color-black);
-  height: 500px;
-  overflow: hidden;
-  flex-shrink: 0;
+.czy-chcesz-by,
+.czy-chcesz-by-twj-biznes-lub-wrapper,
+.filmy-promocyjne-dla {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: var(--padding-11xl) 0 var(--padding-11xl) var(--padding-11xl);
-  box-sizing: border-box;
-  text-align: left;
-  font-size: var(--font-size-5xl);
-  color: var(--color-white);
-  font-family: var(--font-roboto);
 }
-.monta-i-obrbka-container {
+.czy-chcesz-by {
   position: relative;
-  display: flex;
-  align-items: center;
-  width: 500px;
-}
-.page42 {
-  align-self: stretch;
-  background-color: var(--color-black);
-  height: 500px;
-  overflow: hidden;
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-11xl) var(--padding-11xl) var(--padding-11xl) 0;
-  box-sizing: border-box;
-  text-align: left;
-  font-size: var(--font-size-5xl);
-  color: var(--color-white);
-  font-family: var(--font-roboto);
-}
-.dlaczego-warto-wybra {
-  margin: 0;
-  font-weight: 900;
-}
-.dlaczego-warto-wybra-container,
-.zapraszam-do-wsppracy {
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: 500px;
-}
-.zapraszam-do-wsppracy {
-  font-size: var(--font-size-base);
   font-weight: 500;
+  width: 1880px;
+  flex-shrink: 0;
+}
+.czy-chcesz-by-twj-biznes-lub-wrapper {
+  border-radius: var(--br-61xl);
+  background-color: var(--color-black);
+  flex-direction: row;
+  padding: var(--padding-xl);
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+}
+.filmiki-z-drona-container {
+  flex-shrink: 0;
+}
+.dlaczego-warto-mi-container2,
+.film-promocyjny-to,
+.filmiki-z-drona-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 1880px;
+}
+.dlaczego-warto-mi-container2 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+}
+.film-promocyjny-to {
+  font-size: var(--font-size-6xl);
+  font-weight: 500;
+  justify-content: center;
+}
+.text3frame {
+  flex-direction: column;
+  gap: var(--gap-mini);
+}
+.monta-filmw-promocyjnych,
+.page3,
+.text3frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page3 {
+  align-self: stretch;
+  background-color: var(--color-white);
+  height: 710px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-11xl) 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
+.monta-filmw-promocyjnych {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+  width: 700px;
+}
+.chcesz-wyrni-si-na-tle-kon-wrapper {
+  border-radius: var(--br-61xl);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl);
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+}
+.o-mojej-usudze {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  justify-content: center;
+  width: 700px;
+}
+.kady-film-to,
+.o-mojej-usudze,
+.page4,
+.page42 {
+  display: flex;
+  align-items: center;
+}
+.kady-film-to {
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-weight: 500;
+  text-align: left;
+  width: 700px;
 }
 .page4,
-.page44 {
-  align-self: stretch;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
+.page42 {
   justify-content: center;
 }
-.page44 {
-  height: 500px;
-  flex-shrink: 0;
+.page42 {
+  flex: 1;
+  background-color: var(--color-black);
+  height: 1440px;
+  overflow: hidden;
   flex-direction: column;
-  padding: var(--padding-11xl) var(--padding-11xl) var(--padding-11xl) 0;
-  box-sizing: border-box;
-  gap: var(--gap-41xl);
-  background-image: url(./public/page44@3x.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  text-align: left;
-  font-size: var(--font-size-5xl);
+  text-align: center;
+  font-size: var(--font-size-11xl);
   color: var(--color-white);
   font-family: var(--font-roboto);
 }
 .page4 {
+  align-self: stretch;
   flex-direction: row;
 }
-.usugi-dronowe {
+.online-marketing-dla {
   margin: 0;
   position: relative;
   font-size: inherit;
-  font-weight: 900;
+  font-weight: 700;
   font-family: inherit;
+  display: inline-block;
+  width: 700px;
 }
-.wspczesny-wiat-wymaga {
-  position: relative;
-  font-weight: 900;
-  display: flex;
-  align-items: center;
-  width: 1000px;
-}
-.filmy-z-drona-container {
-  flex: 1;
-  position: relative;
-}
-.page5frame11 {
-  width: 1000px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  gap: var(--gap-11xl);
-  font-size: var(--font-size-base);
-}
-.page5frame1 {
-  background-color: var(--color-black);
-  height: 600px;
-  overflow: hidden;
-  flex-shrink: 0;
-  padding: 0 var(--padding-11xl);
-  box-sizing: border-box;
-  gap: var(--gap-41xl);
-  text-align: left;
-  font-size: var(--font-size-5xl);
-  color: var(--color-white);
-  font-family: var(--font-roboto);
-}
-.page51,
-.page5frame1 {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.dlaczego-wybra-moje-container {
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: 1000px;
-}
-.page52 {
-  height: 300px;
-  flex-shrink: 0;
-  padding: 0 var(--padding-11xl);
-  box-sizing: border-box;
-  background-image: url(./public/page52@3x.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  text-align: left;
-  font-size: var(--font-size-5xl);
-  color: var(--color-white);
-  font-family: var(--font-roboto);
-}
-.page5,
-.page52 {
-  align-self: stretch;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.profesjonalna-obrbka-zdj {
-  margin: 0;
-  position: relative;
-  font-size: inherit;
-  font-weight: 900;
-  font-family: inherit;
-}
-.w-dzisiejszych-czasach {
-  position: relative;
-  font-size: var(--font-size-base);
-  display: flex;
-  align-items: center;
-  width: 500px;
-}
-.page62,
-.usugi-obrbki-zdj {
-  font-size: var(--font-size-5xl);
-}
-.page62 {
-  align-self: stretch;
-  height: 500px;
-  overflow: hidden;
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-11xl) var(--padding-11xl) var(--padding-11xl) 0;
-  box-sizing: border-box;
-  gap: var(--gap-41xl);
-  background-image: url(./public/page62@3x.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  text-align: left;
-  color: var(--color-white);
-  font-family: var(--font-roboto);
-}
-.usugi-obrbki-zdj {
-  margin: 0;
-}
-.usugi-obrbki-zdj-container {
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: 500px;
-}
-.page61 {
-  align-self: stretch;
-  background-color: var(--color-black);
-  height: 500px;
-  overflow: hidden;
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-11xl) 0 var(--padding-11xl) var(--padding-11xl);
-  box-sizing: border-box;
-  text-align: left;
-  font-size: var(--font-size-base);
-  color: var(--color-white);
-  font-family: var(--font-roboto);
-}
-.dlaczego-warto-wybra-container2 {
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: 500px;
-}
-.page64 {
-  align-self: stretch;
-  background-color: var(--color-black);
-  height: 500px;
-  overflow: hidden;
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-11xl) var(--padding-11xl) var(--padding-11xl) 0;
-  box-sizing: border-box;
-  text-align: left;
-  font-size: var(--font-size-base);
-  color: var(--color-white);
-  font-family: var(--font-roboto);
-}
-.zapraszam-do-skorzystania {
+.dziki-mojej-wiedzy,
+.rozwijasz-may-biznes {
   position: relative;
   font-weight: 500;
-  display: flex;
-  align-items: center;
-  width: 500px;
+  display: inline-block;
+  width: 700px;
 }
-.page63,
-.page6frame2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.page63 {
-  align-self: stretch;
-  height: 500px;
-  overflow: hidden;
+.rozwijasz-may-biznes {
   flex-shrink: 0;
-  padding: var(--padding-11xl) 0 var(--padding-11xl) var(--padding-11xl);
-  box-sizing: border-box;
-  background-image: url(./public/page63@3x.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  text-align: left;
-  font-size: var(--font-size-base);
-  color: var(--color-white);
-  font-family: var(--font-roboto);
 }
-.page6frame2 {
+.dziki-mojej-wiedzy {
+  font-size: var(--font-size-6xl);
+  text-align: left;
+}
+.page51 {
   flex: 1;
-}
-.rozwijanie-online-marketingu {
-  margin: 0;
-  position: relative;
-  font-size: var(--font-size-5xl);
-  font-weight: 900;
-  font-family: inherit;
-}
-.proces-wsppracy-container,
-.w-wiecie-cyfrowym {
-  position: relative;
-  display: flex;
-  align-items: center;
-}
-.w-wiecie-cyfrowym {
-  font-weight: 500;
-  width: 1000px;
-}
-.proces-wsppracy-container {
-  width: 632px;
-  flex-shrink: 0;
-}
-.page71,
-.page7frame1,
-.page7frame11 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-.page71,
-.page7frame1 {
-  align-self: stretch;
-  flex-direction: column;
-}
-.page7frame1 {
-  height: 750px;
-  overflow: hidden;
-  flex-shrink: 0;
-  padding: 0 var(--padding-11xl);
-  box-sizing: border-box;
-  gap: var(--gap-41xl);
-  background-image: url(./public/page7frame1@3x.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  text-align: left;
-  font-size: var(--font-size-base);
-  color: var(--color-white);
-  font-family: var(--font-roboto);
-}
-.page71 {
   background-color: var(--color-white);
-}
-.oferowane-usugi {
-  margin: 0;
-  position: relative;
-  font-size: inherit;
-  font-weight: 900;
-  font-family: inherit;
-}
-.seo-pozycjonowanie-stron-container {
-  position: relative;
-  font-size: var(--font-size-base);
-  display: flex;
-  align-items: center;
-  width: 1000px;
-}
-.kontakt2,
-.page72 {
-  font-family: var(--font-roboto);
-  text-align: left;
-}
-.page72 {
-  align-self: stretch;
-  background-color: var(--color-black);
-  height: 500px;
+  height: 720px;
   overflow: hidden;
-  flex-shrink: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 var(--padding-11xl);
-  box-sizing: border-box;
-  gap: var(--gap-41xl);
-  font-size: var(--font-size-5xl);
-  color: var(--color-white);
+  gap: var(--gap-mini);
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
 }
+.googlemap2 {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 500px;
+  height: 435px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.page52 {
+  flex: 1;
+  background-color: var(--color-black);
+  height: 720px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.analiza {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 1880px;
+}
+.analiza,
+.wstpna-konsultacja-i-container {
+  position: relative;
+}
+.wstpna-konsultacja-i-diagnoza-wrapper {
+  border-radius: var(--br-61xl);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl);
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.page6,
+.text65frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.page6 {
+  align-self: stretch;
+  background-color: var(--color-black);
+  height: 720px;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}
+.interesuj-cie-moja,
 .kontakt2 {
   margin: 0;
-  font-size: 32px;
-  font-weight: 900;
-}
-.a,
-.kontakt2,
-.phoneicon {
   position: relative;
+  font-size: 50px;
+  font-weight: 900;
+  font-family: inherit;
+}
+.interesuj-cie-moja {
+  font-size: inherit;
+}
+.vector-icon {
+  position: absolute;
+  height: 100%;
+  width: 62.5%;
+  top: 0;
+  right: 18.75%;
+  bottom: 0;
+  left: 18.75%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
 }
 .phoneicon {
+  text-decoration: none;
+  position: relative;
   width: 40px;
   height: 40px;
   overflow: hidden;
   flex-shrink: 0;
 }
-.a {
-  text-decoration: none;
-  color: inherit;
-}
 .phoneframe {
+  width: 40px;
+  height: 40px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: var(--gap-11xl);
 }
-.vector-icon {
+.vector-icon1 {
   position: absolute;
   height: 68.88%;
   width: 84.42%;
@@ -847,19 +571,23 @@
   overflow: hidden;
   max-height: 100%;
 }
-.gmailicon {
-  text-decoration: none;
+.ndmesssagmailcom {
+  text-decoration: underline;
   position: relative;
-  width: 40px;
-  height: 40px;
-  overflow: hidden;
-  flex-shrink: 0;
+  font-weight: 900;
+  color: inherit;
+}
+.gmailframe {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-11xl);
+  text-align: center;
 }
 .group-icon,
-.vector-icon1,
-.vector-icon3,
-.vector-icon4,
-.vector-icon5 {
+.vector-icon2,
+.vector-icon4 {
   position: absolute;
   height: 83.33%;
   width: 83.33%;
@@ -872,9 +600,7 @@
   max-height: 100%;
 }
 .group-icon,
-.vector-icon3,
-.vector-icon4,
-.vector-icon5 {
+.vector-icon4 {
   height: 100%;
   width: 100%;
   top: 0;
@@ -882,26 +608,7 @@
   bottom: 0;
   left: 0;
 }
-.vector-icon3,
-.vector-icon4,
-.vector-icon5 {
-  height: 81.25%;
-  width: 89.89%;
-  top: 9.38%;
-  right: 5.05%;
-  bottom: 9.38%;
-  left: 5.06%;
-}
-.vector-icon4,
-.vector-icon5 {
-  height: 78.13%;
-  width: 78.13%;
-  top: 10.94%;
-  right: 10.94%;
-  bottom: 10.94%;
-  left: 10.94%;
-}
-.vector-icon5 {
+.vector-icon4 {
   height: 82.81%;
   width: 79.69%;
   top: 7.03%;
@@ -909,7 +616,7 @@
   bottom: 10.16%;
   left: 10.16%;
 }
-.page8frame1,
+.page71,
 .social-media {
   display: flex;
   align-items: center;
@@ -918,84 +625,83 @@
 .social-media {
   flex-direction: row;
   padding: 16px;
-  gap: var(--gap-base);
+  gap: 16px;
 }
-.page8frame1 {
+.page71 {
+  align-self: stretch;
   flex: 1;
-  height: 280px;
   overflow: hidden;
   flex-direction: column;
   gap: var(--gap-11xl);
 }
-.googlemap {
+.googlemap3 {
+  border: 0;
   position: relative;
-  background-color: var(--color-white);
+  background-color: var(--color-gray-100);
   width: 500px;
   height: 500px;
   overflow: hidden;
   flex-shrink: 0;
 }
-iframe {
-  filter:invert(100%)
+.page72 {
+  align-self: stretch;
+  flex: 1;
+  padding: var(--padding-11xl) 0;
 }
-.page8,
-.page8frame2 {
+.page7,
+.page72,
+.page7frame {
   overflow: hidden;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-.page8frame2 {
+.page7frame {
   flex: 1;
-  height: 500px;
-  padding: var(--padding-11xl) 0;
-  box-sizing: border-box;
-}
-.page8 {
-  align-self: stretch;
   background-color: var(--color-black);
+  height: 720px;
   gap: var(--gap-11xl);
-  text-align: center;
-  font-size: var(--font-size-5xl);
-  color: var(--color-white);
-  font-family: var(--font-baloo);
 }
-.copyright-2023 {
-  margin: 0;
+.page7 {
   align-self: stretch;
-  position: relative;
-  font-weight: 700;
-}
-.licensefooter {
-  align-self: stretch;
-  height: 80px;
-  flex-shrink: 0;
-  justify-content: center;
-  padding: 114px 0;
-  box-sizing: border-box;
-  text-align: center;
-  font-size: var(--font-size-5xl);
+  text-align: left;
+  font-size: var(--font-size-6xl);
   color: var(--color-white);
   font-family: var(--font-roboto);
 }
-.footer,
-.licensefooter,
-.site {
+.copyright-2023 {
+  margin: 0;
+  position: relative;
+  font-weight: 700;
+}
+.footerframe {
+  align-self: stretch;
+  flex: 1;
+  background-color: var(--color-black);
   overflow: hidden;
+}
+.footer,
+.footerframe,
+.site {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 .footer {
   align-self: stretch;
-  background-color: var(--color-black);
-  justify-content: flex-end;
+  height: 100px;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: justify;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
 }
 .site {
   position: relative;
   width: 100%;
-  justify-content: center;
 }
 #progress {
   position: fixed;
@@ -1020,497 +726,300 @@ iframe {
   font-size: 35px;
   color: #ffffff;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1920px) {
   .kontakt {
     width: auto;
     align-self: unset;
     align-items: center;
     justify-content: flex-end;
   }
-  .kontaktframe1 {
+  .navbarkontakt {
     gap: var(--gap-81xl);
   }
-  .navbarbottom,
-  .navbartop {
+  .uslugi,
+  .uslugi1,
+  .uslugi2,
+  .uslugi3 {
     width: auto;
     align-self: unset;
-    height: auto;
-    flex-direction: column;
-    padding: var(--padding-xl);
-    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-end;
   }
-  .specjalizuj-si-w {
+  .navbarkontakt1 {
+    gap: var(--gap-11xl);
+  }
+  .przygotowanie-nieruchomoci-do {
     width: 800px;
   }
-  .page2frame1 {
+  .page1 {
+    height: 1080px;
+  }
+  .main,
+  .main1 {
     flex: unset;
     align-self: stretch;
   }
-  .jak-przebiega-nasza {
-    text-align: center;
-    width: 800px;
+  .main1 {
+    height: 1080px;
   }
   .page2 {
     flex-direction: column;
   }
-  .czy-idealny-dom,
-  .szukanieframe1 {
-    width: 900px;
+  .czy-chcesz-by,
+  .dlaczego-warto-mi-container2,
+  .film-promocyjny-to,
+  .filmiki-z-drona-container,
+  .filmy-promocyjne-dla {
+    width: 1200px;
   }
-  .dlaczego-warto-powierzy-container1,
-  .jak-przebiega-proces-container1 {
-    font-size: var(--font-size-base);
+  .page3 {
+    height: auto;
   }
-  .szukanieframe11 {
-    width: 900px;
-  }
-  .dlaczego-warto-wybra-container {
-    text-align: center;
+  .page42 {
+    flex: unset;
+    align-self: stretch;
   }
   .page4 {
     flex-direction: column;
   }
-  .wspczesny-wiat-wymaga {
-    font-size: var(--font-size-base);
-    width: 900px;
-  }
-  .page5frame11 {
-    width: 900px;
-  }
-  .dlaczego-wybra-moje-container,
-  .usugi-obrbki-zdj-container {
-    text-align: center;
-    width: 800px;
-  }
-  .dlaczego-warto-wybra-container2 {
-    text-align: center;
-  }
-  .page6frame2 {
+  .page51,
+  .page52,
+  .page7frame {
     flex: unset;
     align-self: stretch;
   }
-  .proces-wsppracy-container {
-    width: 900px;
-  }
-  .page8frame1,
-  .page8frame2 {
-    flex: unset;
-    align-self: stretch;
-  }
-  .page8 {
+  .page7 {
     flex-direction: column;
   }
 }
-@media screen and (max-width: 960px) {
-  .kontaktframe1 {
+@media screen and (max-width: 1280px) {
+  .navbarkontakt {
     gap: var(--gap-81xl);
   }
-  .navbartop {
-    height: 166px;
-    padding-left: var(--padding-3xs);
-    padding-right: var(--padding-3xs);
-    box-sizing: border-box;
+  .navbarkontakt1 {
+    flex-direction: column;
+    gap: var(--gap-11xl);
   }
-  .monta {
-    font-size: var(--font-size-base);
-  }
-  .navbarbottom {
-    height: 166px;
-    padding-left: var(--padding-3xs);
-    padding-right: var(--padding-3xs);
-    box-sizing: border-box;
-  }
-  .specjalizuj-si-w {
+  .przygotowanie-nieruchomoci-do {
     font-weight: 500;
     font-family: var(--font-roboto);
     width: 420px;
   }
-  .brak-prowizji-dziaam-container,
-  .czy-idealny-dom,
-  .dodatkowa-korzy,
-  .jak-przebiega-nasza,
-  .kady-klient-ktry-container,
-  .kim-jestem-nie-reprezentuj-container,
-  .pierwszym-krokiem-jest-container,
-  .planujesz-sprzeda-nieruchomo,
-  .profesjonalna-pomoc-w,
-  .przygotowanie-nieruchomoci-do {
-    width: 420px;
+  .page1 {
+    height: 800px;
   }
-  .dlaczego-warto-powierzy-container {
-    font-size: var(--font-size-3xs);
-    width: 420px;
-    flex: unset;
-    align-self: stretch;
+  .planujesz-sprzeda-lub {
+    font-size: var(--font-size-mini);
   }
-  .szukanieframe1 {
-    width: 420px;
-    flex-direction: column;
-    padding-left: var(--padding-5xs);
-    padding-right: var(--padding-5xs);
-    box-sizing: border-box;
+  .co-oferuj {
+    font-size: var(--font-size-6xl);
   }
-  .dlaczego-warto-powierzy-container1,
-  .jak-przebiega-proces-container1 {
-    font-size: var(--font-size-xs);
-    flex: unset;
-    align-self: stretch;
+  .filmiki-promocyjne-z-container {
+    font-size: var(--font-size-mini);
   }
-  .jak-przebiega-proces-container1 {
-    width: 400px;
+  .dlaczego-warto-mi-container {
+    font-size: var(--font-size-6xl);
   }
-  .szukanieframe11 {
-    width: 420px;
-    flex-direction: column;
-    padding-left: var(--padding-5xs);
-    padding-right: var(--padding-5xs);
-    box-sizing: border-box;
+  .nie-jestem-porednikiem {
+    font-size: var(--font-size-mini);
   }
-  .page3frame1 {
-    gap: 15px;
-  }
-  .profesjonalny-monta-filmw {
-    text-align: center;
-    width: 420px;
-  }
-  .page41 {
-    padding-left: 0;
-    box-sizing: border-box;
-  }
-  .promocja-twojej-oferty-container {
-    text-align: center;
-    width: 420px;
-  }
-  .page43 {
-    align-self: stretch;
-    width: auto;
-    align-items: center;
-    justify-content: center;
-    padding-left: 0;
-    padding-right: 0;
-    box-sizing: border-box;
-  }
-  .monta-i-obrbka-container {
-    width: 420px;
-  }
-  .page42 {
-    padding-right: 0;
-    box-sizing: border-box;
-  }
-  .dlaczego-warto-wybra-container {
-    text-align: left;
-    width: 420px;
-  }
-  .zapraszam-do-wsppracy {
-    width: 420px;
-  }
-  .page44 {
-    padding-right: 0;
-    box-sizing: border-box;
-  }
-  .usugi-dronowe {
-    font-size: var(--font-size-5xl);
-    width: 420px;
-  }
-  .wspczesny-wiat-wymaga {
-    width: 420px;
-  }
-  .filmy-z-drona-container {
-    flex: unset;
-    align-self: stretch;
-  }
-  .page5frame11 {
-    width: 420px;
-    flex-direction: column;
-  }
-  .page5frame1 {
-    gap: var(--gap-11xl);
-  }
-  .dlaczego-wybra-moje-container {
-    width: 420px;
-  }
-  .profesjonalna-obrbka-zdj {
-    text-align: center;
-  }
-  .usugi-obrbki-zdj-container,
-  .w-dzisiejszych-czasach {
-    width: 420px;
-  }
-  .page61 {
-    padding-left: 0;
-    box-sizing: border-box;
-  }
-  .dlaczego-warto-wybra-container2,
-  .zapraszam-do-skorzystania {
-    width: 420px;
-  }
-  .page63 {
-    padding-left: 0;
-    box-sizing: border-box;
-  }
-  .rozwijanie-online-marketingu {
-    text-align: center;
-    width: 420px;
-  }
-  .proces-wsppracy-container,
-  .w-wiecie-cyfrowym {
-    width: 420px;
-  }
-  .seo-pozycjonowanie-stron-container {
-    font-size: var(--font-size-3xs);
-    width: 420px;
+  .main {
+    height: 800px;
   }
   .googlemap {
     width: 400px;
     height: 400px;
   }
+  .main1 {
+    height: 600px;
+  }
+  .filmy-promocyjne-dla {
+    font-size: var(--font-size-6xl);
+    width: 700px;
+  }
+  .czy-chcesz-by,
+  .filmiki-z-drona-container {
+    font-size: var(--font-size-mini);
+    width: 700px;
+  }
+  .dlaczego-warto-mi-container2 {
+    font-size: var(--font-size-6xl);
+    width: 700px;
+  }
+  .film-promocyjny-to {
+    font-size: var(--font-size-mini);
+    width: 700px;
+  }
+  .monta-filmw-promocyjnych,
+  .o-mojej-usudze {
+    font-size: var(--font-size-6xl);
+  }
+  .kady-film-to {
+    font-size: var(--font-size-mini);
+  }
+  .page42 {
+    height: 800px;
+  }
+  .online-marketing-dla {
+    font-size: var(--font-size-6xl);
+  }
+  .dziki-mojej-wiedzy,
+  .rozwijasz-may-biznes {
+    font-size: var(--font-size-mini);
+  }
+  .page51 {
+    height: 500px;
+  }
+  .analiza {
+    font-size: var(--font-size-6xl);
+    width: 700px;
+  }
+  .wstpna-konsultacja-i-container {
+    font-size: var(--font-size-mini);
+    width: 700px;
+  }
+  .page71 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .googlemap3 {
+    width: 400px;
+    height: 400px;
+  }
+  .page72 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .page7frame {
+    flex: 1;
+    flex-direction: column;
+  }
+  .page7 {
+    flex-direction: row;
+  }
   .copyright-2023 {
     font-size: var(--font-size-base);
   }
 }
-@media screen and (max-width: 420px) {
-  .kontaktframe1 {
+@media screen and (max-width: 412px) {
+  .navbarkontakt {
     gap: var(--gap-81xl);
   }
-  .navbarbottom,
-  .navbartop {
-    padding-left: var(--padding-3xs);
-    padding-right: var(--padding-3xs);
-    box-sizing: border-box;
+  .przygotowanie-nieruchomoci {
+    text-align: center;
   }
-  .specjalizuj-si-w {
-    width: 360px;
-  }
-  .page1 {
+  .uslugi {
+    width: 220px;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
+  }
+  .navbarkontakt1 {
+    gap: var(--gap-mini);
+    padding-top: 150px;
+    box-sizing: border-box;
   }
   .przygotowanie-nieruchomoci-do {
-    width: 380px;
-  }
-  .kim-jestem-nie-reprezentuj-container {
     width: 360px;
   }
-  .page21 {
+  .co-oferuj,
+  .dlaczego-warto-mi-container,
+  .filmiki-promocyjne-z-container,
+  .nie-jestem-porednikiem,
+  .planujesz-sprzeda-lub {
+    width: 320px;
+  }
+  .main {
+    height: 1100px;
     align-items: center;
     justify-content: center;
   }
-  .planujesz-sprzeda-nieruchomo {
-    font-size: var(--font-size-smi);
-    width: 360px;
+  .googlemap {
+    width: 320px;
+    height: 400px;
   }
-  .brak-prowizji-dziaam-container {
-    font-size: 12px;
-    width: 360px;
-  }
-  .page22 {
+  .main1 {
+    height: 915px;
     align-items: center;
     justify-content: center;
   }
-  .jak-przebiega-nasza {
-    width: 360px;
-  }
-  .pierwszym-krokiem-jest-container {
-    font-size: var(--font-size-3xs);
-    width: 360px;
-  }
-  .page23 {
-    align-items: center;
-    justify-content: center;
-  }
-  .kady-klient-ktry-container {
-    font-size: 12px;
-    width: 360px;
-  }
-  .page24 {
-    align-items: center;
-    justify-content: center;
-  }
-  .profesjonalna-pomoc-w {
-    font-size: var(--font-size-base);
-    width: 380px;
-  }
-  .czy-idealny-dom,
-  .dlaczego-warto-powierzy-container {
-    font-size: var(--font-size-3xs);
-    width: 360px;
-  }
-  .szukanieframe1 {
-    width: 360px;
-    align-items: center;
-    justify-content: center;
-    padding-left: var(--padding-5xs);
-    box-sizing: border-box;
-  }
-  .dlaczego-warto-powierzy-container1,
-  .jak-przebiega-proces-container1 {
-    font-size: var(--font-size-3xs);
+  .czy-chcesz-by,
+  .dlaczego-warto-mi-container2,
+  .film-promocyjny-to,
+  .filmiki-z-drona-container,
+  .filmy-promocyjne-dla {
+    width: 320px;
   }
   .page3 {
     align-items: center;
     justify-content: center;
   }
-  .profesjonalny-monta-filmw {
-    font-size: 22px;
-  }
-  .page41 {
-    align-items: center;
-    justify-content: center;
-  }
-  .promocja-twojej-oferty-container {
-    font-size: var(--font-size-smi);
-    width: 360px;
-  }
-  .page43 {
-    align-items: center;
-    justify-content: center;
-    padding-left: var(--padding-mini);
-    padding-right: var(--padding-mini);
-    box-sizing: border-box;
-  }
-  .monta-i-obrbka-container {
-    font-size: var(--font-size-smi);
-    width: 360px;
+  .kady-film-to,
+  .monta-filmw-promocyjnych,
+  .o-mojej-usudze {
+    width: 320px;
   }
   .page42 {
-    align-items: center;
-    justify-content: center;
-    padding-left: var(--padding-mini);
-    padding-right: var(--padding-mini);
-    box-sizing: border-box;
-  }
-  .dlaczego-warto-wybra-container,
-  .zapraszam-do-wsppracy {
-    font-size: var(--font-size-smi);
-    width: 360px;
-  }
-  .page4,
-  .page44 {
-    box-sizing: border-box;
-  }
-  .page44 {
-    align-items: center;
-    justify-content: center;
-    padding-left: var(--padding-mini);
-  }
-  .page4 {
-    padding-left: 0;
-  }
-  .usugi-dronowe {
-    font-size: var(--font-size-base);
-    text-align: center;
-    width: 380px;
-  }
-  .wspczesny-wiat-wymaga {
-    font-size: var(--font-size-smi);
-    width: 360px;
-  }
-  .filmy-z-drona-container {
-    font-size: 12px;
-    width: 360px;
-  }
-  .page5frame11 {
-    width: 360px;
-    padding-left: var(--padding-mini);
-    box-sizing: border-box;
-  }
-  .page5frame1 {
+    height: 1100px;
     align-items: center;
     justify-content: center;
   }
-  .dlaczego-wybra-moje-container {
-    font-family: var(--font-roboto);
-    font-size: var(--font-size-base);
-    width: 360px;
+  .dziki-mojej-wiedzy,
+  .online-marketing-dla,
+  .rozwijasz-may-biznes {
+    width: 320px;
+  }
+  .page51 {
+    align-items: center;
+    justify-content: center;
+  }
+  .googlemap2 {
+    width: 320px;
   }
   .page52 {
     align-items: center;
     justify-content: center;
   }
-  .profesjonalna-obrbka-zdj {
-    font-size: var(--font-size-base);
-    width: 380px;
+  .analiza,
+  .wstpna-konsultacja-i-container {
+    width: 320px;
   }
-  .w-dzisiejszych-czasach {
-    font-size: var(--font-size-smi);
-    width: 360px;
+  .text65frame {
+    flex: 1;
   }
-  .page62 {
-    align-items: center;
-    justify-content: center;
-    padding-left: var(--padding-mini);
-    padding-right: var(--padding-mini);
-    box-sizing: border-box;
-  }
-  .usugi-obrbki-zdj-container {
-    font-size: var(--font-size-smi);
-    width: 360px;
-  }
-  .page61 {
-    align-items: center;
-    justify-content: center;
-    padding-left: 0;
-    box-sizing: border-box;
-  }
-  .dlaczego-warto-wybra-container2 {
-    font-size: var(--font-size-smi);
-    width: 360px;
-  }
-  .page64 {
+  .page6 {
+    height: 1100px;
     align-items: center;
     justify-content: center;
   }
-  .zapraszam-do-skorzystania {
-    font-size: var(--font-size-smi);
-    width: 360px;
+  .interesuj-cie-moja {
+    text-align: center;
   }
-  .page63 {
-    align-items: center;
-    justify-content: center;
+  .ndmesssagmailcom {
+    display: none;
   }
-  .page63,
-  .page6frame2 {
-    padding-left: 0;
-    box-sizing: border-box;
-  }
-  .rozwijanie-online-marketingu {
-    font-size: var(--font-size-base);
-    width: 380px;
-  }
-  .proces-wsppracy-container,
-  .w-wiecie-cyfrowym {
-    font-size: var(--font-size-smi);
-    width: 360px;
-  }
-  .page7frame11 {
-    width: 360px;
-  }
-  .page7frame1 {
-    align-items: center;
-    justify-content: center;
-  }
-  .seo-pozycjonowanie-stron-container {
-    font-size: 12px;
-    width: 360px;
-  }
-  .page72 {
-    align-items: center;
-    justify-content: center;
+  .gmailframe {
+    gap: 5px;
   }
   .social-media {
     gap: 8px;
   }
-  .googlemap {
-    width: 400px;
+  .page71 {
+    gap: 10px;
+    padding-top: 15px;
+    box-sizing: border-box;
   }
-  .googlemap,
-  .page8frame2 {
+  .googlemap3 {
+    width: 320px;
+  }
+  .googlemap3,
+  .page72 {
     height: 400px;
   }
-  .page8 {
+  .page7 {
     align-items: center;
     justify-content: center;
   }
   .copyright-2023 {
     font-size: var(--font-size-base);
   }
+}
