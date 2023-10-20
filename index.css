@@ -148,7 +148,6 @@
 .page1 {
   justify-content: flex-start;
   padding: var(--padding-11xl) 0;
-  background-image: url(./public/page1@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
