@@ -262,7 +262,7 @@ video.bgvid {
   position: relative;
   background-color: var(--color-gray-100);
   width: 500px;
-  height: 435px;
+  height: 475px;
   overflow: hidden;
   flex-shrink: 0;
 }
