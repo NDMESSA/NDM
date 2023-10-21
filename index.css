@@ -1,534 +1,501 @@
-.output-onlinepngtools-1-icon {
-  position: relative;
-  width: 100px;
-  height: 106.76px;
-  object-fit: cover;
+@keyframes shadow-pop-tr {
+  0% {
+    box-shadow: 0 0 rgba(62, 62, 62, 0.18), 0 0 rgba(62, 62, 62, 0.18),
+      0 0 rgba(62, 62, 62, 0.18), 0 0 rgba(62, 62, 62, 0.18),
+      0 0 rgba(62, 62, 62, 0.18), 0 0 rgba(62, 62, 62, 0.18),
+      0 0 rgba(62, 62, 62, 0.18), 0 0 rgba(62, 62, 62, 0.18);
+    transform: translateX(0) translateY(0);
+  }
+  to {
+    box-shadow: 1px -1px rgba(62, 62, 62, 0.18), 2px -2px rgba(62, 62, 62, 0.18),
+      3px -3px rgba(62, 62, 62, 0.18), 4px -4px rgba(62, 62, 62, 0.18),
+      5px -5px rgba(62, 62, 62, 0.18), 6px -6px rgba(62, 62, 62, 0.18),
+      7px -7px rgba(62, 62, 62, 0.18), 8px -8px rgba(62, 62, 62, 0.18);
+    transform: translateX(-8px) translateY(8px);
+  }
 }
-.kontakt1 {
-  text-decoration: none;
-  position: relative;
-  font-weight: 900;
-  color: inherit;
-}
-.kontakt1:hover {
-  color: rgba(0, 0, 0, 0.5);
-}
-.kontakt,
-.navbar1,
-.navbarkontakt {
+.div1,
+.ndmessa {
   display: flex;
-  flex-direction: row;
   align-items: center;
 }
-.kontakt {
-  border-radius: var(--br-61xl);
-  background-color: var(--color-white);
-  border: 1px solid var(--color-white);
-  justify-content: center;
-  padding: var(--padding-5xs);
-  cursor: pointer;
-  z-index: 0;
-}
-.navbar1,
-.navbarkontakt {
-  align-self: stretch;
-}
-.navbarkontakt {
+.ndmessa {
   margin: 0;
-  flex: 1;
-  justify-content: flex-end;
-  text-align: left;
-  font-size: var(--font-size-5xl);
-  color: var(--color-black);
-  font-family: var(--font-roboto);
-}
-.navbar1 {
-  height: 100px;
-  justify-content: flex-start;
-  padding: 0 var(--padding-11xl);
-  box-sizing: border-box;
-}
-.przygotowanie-nieruchomoci {
-  position: relative;
-  font-weight: 900;
-}
-.filmy-promocyjne:hover,
-.ndmesssagmailcom:hover,
-.online-marketing:hover,
-.przygotowanie-nieruchomoci:hover {
-  color: var(--color-gray-200);
-}
-.uslugi {
-  border-radius: var(--br-61xl);
-  background-color: var(--color-black);
-  border: 1px solid var(--color-black);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-5xs);
-  cursor: pointer;
-  z-index: 3;
-}
-.filmy-promocyjne {
-  position: relative;
-  font-weight: 900;
-}
-.uslugi1,
-.uslugi2 {
-  border-radius: var(--br-61xl);
-  background-color: var(--color-black);
-  border: 1px solid var(--color-black);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-5xs);
-  cursor: pointer;
-  z-index: 2;
-}
-.uslugi2 {
-  z-index: 1;
-}
-.online-marketing {
-  position: relative;
-}
-.navbarkontakt1,
-.uslugi3 {
-  flex-direction: row;
-  justify-content: center;
-}
-.uslugi3 {
-  border-radius: var(--br-61xl);
-  background-color: var(--color-black);
-  border: 1px solid var(--color-black);
-  display: flex;
-  align-items: center;
-  padding: var(--padding-5xs);
-  cursor: pointer;
-  z-index: 0;
-}
-.navbarkontakt1 {
-  margin: 0;
-  flex: 1;
-  gap: var(--gap-11xl);
-  text-align: left;
-  font-size: var(--font-size-11xl);
-  color: var(--color-white);
-  font-family: var(--font-roboto);
-}
-.h1frame,
-.navbarkontakt1,
-.page1,
-.przygotowanie-nieruchomoci-do {
-  align-self: stretch;
-  display: flex;
-  align-items: center;
-}
-.przygotowanie-nieruchomoci-do {
-  margin: 0;
-  flex: 1;
   position: relative;
   font-size: inherit;
-  font-weight: 900;
+  font-weight: 400;
   font-family: inherit;
+  width: 642px;
+  flex-shrink: 0;
 }
-.h1frame,
-.page1 {
+.div1 {
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+}
+.android-chrome-512x512-1-icon {
+  position: relative;
+  width: 197.6px;
+  height: 204.8px;
+  object-fit: cover;
+}
+.div,
+.div2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.div2 {
+  flex: 1;
+}
+.div {
+  align-self: stretch;
+}
+.div6 {
+  flex: 1;
+  position: relative;
+  -webkit-text-stroke: 1px #000;
+}
+.div5 {
+  align-self: stretch;
+  height: 68px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.przygotowanie {
+  margin: 0;
+}
+.przygotowanie-nieruchomoci {
+  flex: 1;
+  position: relative;
+  -webkit-text-stroke: 1px #000;
+}
+.div4,
+.div7 {
+  display: flex;
+  align-items: center;
+}
+.div7 {
+  align-self: stretch;
+  height: 68px;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+}
+.div4 {
+  flex: 1;
   overflow: hidden;
   flex-direction: column;
-}
-.h1frame {
-  background-color: var(--color-white);
-  height: 1280px;
-  flex-shrink: 0;
   justify-content: center;
-  opacity: 0;
-}
-.page1 {
-  justify-content: flex-start;
-  padding: var(--padding-11xl) 0;
+  padding: var(--padding-3xs);
+  gap: var(--gap-340xl);
+  background-image: url(./public/121@3x.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  text-align: left;
-  font-size: var(--font-size-5xl);
-  color: var(--color-white);
-  font-family: var(--font-roboto);
-  position: relative;
-  overflow: hidden;
-  z-index: 0; 
+  cursor: pointer;
+  text-align: right;
 }
-video.bgvid {
+.div12:hover,
+.div16:hover,
+.div4:hover,
+.div8:hover {
+  animation: 30s ease 0s 1 alternate-reverse none shadow-pop-tr;
+  opacity: 1;
+}
+.div10 {
   position: absolute;
-  top: 0;
+  top: -2px;
+  right: -1px;
+  -webkit-text-stroke: 1px #000;
+}
+.div9 {
+  align-self: stretch;
+  position: relative;
+  height: 68px;
+}
+.filmy-promocyjne {
+  position: absolute;
+  bottom: -2px;
   left: 0;
+  -webkit-text-stroke: 1px #000;
+}
+.div11 {
+  align-self: stretch;
+  position: relative;
+  height: 68px;
+  font-size: var(--font-size-11xl);
+}
+.div8 {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  gap: var(--gap-340xl);
+  background-image: url(./public/122@3x.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  cursor: pointer;
+}
+.div14 {
+  position: absolute;
+  top: -3px;
+  right: 0;
+  -webkit-text-stroke: 1px #000;
+}
+.div12 {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  gap: var(--gap-340xl);
+  background-image: url(./public/123@3x.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  cursor: pointer;
+}
+.div18 {
+  position: absolute;
+  top: -2px;
+  right: 0;
+  -webkit-text-stroke: 1px #000;
+}
+.div16,
+.div3,
+.page-1 {
+  display: flex;
+  align-items: center;
+}
+.div16 {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  gap: var(--gap-340xl);
+  background-image: url(./public/124@3x.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  cursor: pointer;
+}
+.div3,
+.page-1 {
+  align-self: stretch;
+}
+.div3 {
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-31xl);
+  color: var(--color-white);
+}
+.page-1 {
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-61xl);
+  gap: var(--gap-61xl);
+  font-size: 120px;
+}
+.przygotowanie-nieruchomoci1 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.div21 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.div23 {
+  flex: 1;
+  position: relative;
+}
+.div20,
+.div22 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.div22 {
+  flex: 1;
+  text-align: right;
+}
+.div20 {
+  font-size: var(--font-size-31xl);
+  font-family: var(--font-rubik-one);
+}
+.planujesz-sprzeda-lub-container {
+  flex: 1;
+  position: relative;
+}
+.a-house-located-in-the-normand {
+  position: absolute;
+  height: calc(100% + 0.1px);
   width: 100%;
-  height: 100%;
-  object-fit: cover; 
-  z-index: -2;      
-}
-.planujesz-sprzeda-lub {
-  position: relative;
-  font-weight: 500;
-  width: 700px;
-  flex-shrink: 0;
-}
-.co-oferuj,
-.planujesz-sprzeda-lub,
-.planujesz-sprzeda-lub-wynaj-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.planujesz-sprzeda-lub-wynaj-wrapper {
-  border-radius: var(--br-61xl);
-  background-color: var(--color-white);
-  flex-direction: row;
-  padding: var(--padding-xl);
-  color: var(--color-black);
-}
-.co-oferuj {
-  margin: 0;
-  position: relative;
-  font-size: var(--font-size-11xl);
-  font-weight: 900;
-  font-family: inherit;
-  width: 700px;
-}
-.blank-line {
-  margin: 0;
-  font-weight: 500;
-}
-.filmiki-promocyjne-z {
-  font-weight: 900;
-  font-family: var(--font-roboto);
-}
-.dziki-nim-twoja {
-  font-weight: 500;
-}
-.filmiki-promocyjne-z-drona-dz {
-  margin: 0;
-}
-.filmiki-promocyjne-z-container1 {
-  line-break: anywhere;
-  width: 100%;
-}
-.filmiki-promocyjne-z-container {
-  flex-shrink: 0;
-}
-.dlaczego-warto-mi-container,
-.filmiki-promocyjne-z-container,
-.nie-jestem-porednikiem {
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: 700px;
-}
-.dlaczego-warto-mi-container {
-  margin: 0;
-  font-size: var(--font-size-11xl);
-  font-weight: 900;
-  font-family: inherit;
-  height: 79px;
-  flex-shrink: 0;
-}
-.nie-jestem-porednikiem {
-  font-weight: 500;
-  text-align: left;
-}
-.main,
-.text21frame {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.text21frame {
-  height: 1236px;
-  gap: var(--gap-mini);
-}
-.main {
-  flex: 1;
-  background-color: var(--color-black);
-  height: 1440px;
+  top: 0;
+  right: 0;
+  bottom: -0.1px;
+  left: 0;
+  max-width: 100%;
   overflow: hidden;
-  text-align: center;
-  font-size: var(--font-size-6xl);
-  color: var(--color-white);
-  font-family: var(--font-roboto);
+  max-height: 100%;
+  object-fit: cover;
 }
-.googlemap {
-  position: relative;
-  background-color: var(--color-gray-100);
-  width: 500px;
-  height: 475px;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.main1,
-.page2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.main1 {
-  flex: 1;
-  background-color: var(--color-black);
-  height: 1440px;
-  overflow: hidden;
-  flex-direction: column;
-}
-.page2 {
+.div26 {
   align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.div25,
+.div27 {
   flex-direction: row;
-}
-.filmy-promocyjne-dla {
-  margin: 0;
-  position: relative;
-  font-size: inherit;
-  font-weight: 900;
-  font-family: inherit;
-  width: 1880px;
-}
-.czy-chcesz-by,
-.czy-chcesz-by-twj-biznes-lub-wrapper,
-.filmy-promocyjne-dla {
-  display: flex;
-  align-items: center;
   justify-content: center;
 }
-.czy-chcesz-by {
-  position: relative;
-  font-weight: 500;
-  width: 1880px;
-  flex-shrink: 0;
-}
-.czy-chcesz-by-twj-biznes-lub-wrapper {
-  border-radius: var(--br-61xl);
-  background-color: var(--color-black);
-  flex-direction: row;
-  padding: var(--padding-xl);
-  font-size: var(--font-size-6xl);
-  color: var(--color-white);
-}
-.filmiki-z-drona-container {
-  flex-shrink: 0;
-}
-.dlaczego-warto-mi-container2,
-.film-promocyjny-to,
-.filmiki-z-drona-container {
-  position: relative;
+.div27 {
+  flex: 1;
   display: flex;
   align-items: center;
-  width: 1880px;
 }
-.dlaczego-warto-mi-container2 {
-  margin: 0;
-  font-size: inherit;
-  font-weight: 900;
-  font-family: inherit;
+.div25 {
+  gap: var(--gap-61xl);
 }
-.film-promocyjny-to {
-  font-size: var(--font-size-6xl);
-  font-weight: 500;
-  justify-content: center;
-}
-.text3frame {
-  flex-direction: column;
-  gap: var(--gap-mini);
-}
-.monta-filmw-promocyjnych,
-.page3,
-.text3frame {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.page3 {
+.div25,
+.div28,
+.page-2 {
   align-self: stretch;
-  background-color: var(--color-white);
-  height: 710px;
-  overflow: hidden;
-  flex-shrink: 0;
-  flex-direction: column;
-  padding: var(--padding-11xl) 0;
-  box-sizing: border-box;
-  text-align: center;
-  font-size: var(--font-size-11xl);
-  color: var(--color-black);
-  font-family: var(--font-roboto);
-}
-.monta-filmw-promocyjnych {
-  margin: 0;
-  position: relative;
-  font-size: inherit;
-  font-weight: 900;
-  font-family: inherit;
-  width: 700px;
-}
-.chcesz-wyrni-si-na-tle-kon-wrapper {
-  border-radius: var(--br-61xl);
-  background-color: var(--color-white);
   display: flex;
+  align-items: center;
+}
+.page-2 {
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-61xl);
+  gap: var(--gap-61xl);
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-arimo);
+}
+.div28 {
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-xl);
-  font-size: var(--font-size-6xl);
-  color: var(--color-black);
+  justify-content: flex-end;
 }
-.o-mojej-usudze {
-  margin: 0;
-  position: relative;
-  font-size: inherit;
-  font-weight: 700;
-  font-family: inherit;
-  justify-content: center;
-  width: 700px;
-}
-.kady-film-to,
-.o-mojej-usudze,
-.page4,
-.page42 {
-  display: flex;
-  align-items: center;
-}
-.kady-film-to {
-  position: relative;
-  font-size: var(--font-size-6xl);
-  font-weight: 500;
-  text-align: left;
-  width: 700px;
-}
-.page4,
-.page42 {
-  justify-content: center;
-}
-.page42 {
-  flex: 1;
-  background-color: var(--color-black);
-  height: 1440px;
-  overflow: hidden;
-  flex-direction: column;
-  text-align: center;
-  font-size: var(--font-size-11xl);
-  color: var(--color-white);
-  font-family: var(--font-roboto);
-}
-.page4 {
+.domki-noclegowe,
+.filmy-promocyjne-domkw {
   align-self: stretch;
-  flex-direction: row;
-}
-.online-marketing-dla {
-  margin: 0;
   position: relative;
-  font-size: inherit;
-  font-weight: 700;
-  font-family: inherit;
-  display: inline-block;
-  width: 700px;
 }
-.dziki-mojej-wiedzy,
-.rozwijasz-may-biznes {
-  position: relative;
-  font-weight: 500;
-  display: inline-block;
-  width: 700px;
-}
-.rozwijasz-may-biznes {
-  flex-shrink: 0;
-}
-.dziki-mojej-wiedzy {
+.filmy-promocyjne-domkw {
   font-size: var(--font-size-6xl);
-  text-align: left;
 }
-.page51 {
-  flex: 1;
-  background-color: var(--color-white);
-  height: 720px;
-  overflow: hidden;
+.div36,
+.div37 {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div37 {
+  align-self: stretch;
+  gap: var(--gap-3xs);
+}
+.div36 {
+  flex: 1;
+  gap: var(--gap-xl);
+}
+.div33,
+.div35 {
+  align-self: stretch;
+  display: flex;
+}
+.div35 {
+  flex-direction: row;
+  align-items: flex-start;
   justify-content: center;
-  gap: var(--gap-mini);
-  text-align: center;
+  gap: var(--gap-21xl);
   font-size: var(--font-size-11xl);
-  color: var(--color-black);
-  font-family: var(--font-roboto);
 }
-.googlemap2 {
-  position: relative;
-  background-color: var(--color-gray-100);
-  width: 500px;
-  height: 435px;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.page52 {
+.div33 {
   flex: 1;
-  background-color: var(--color-black);
-  height: 720px;
-  overflow: hidden;
-  display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  gap: var(--gap-61xl);
 }
-.analiza {
-  margin: 0;
-  font-size: inherit;
-  font-weight: 700;
-  font-family: inherit;
-  display: inline-block;
-  width: 1880px;
-}
-.analiza,
-.wstpna-konsultacja-i-container {
+.https-s2glbimg-1-icon {
+  flex: 1;
   position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 800px;
+  object-fit: cover;
 }
-.wstpna-konsultacja-i-diagnoza-wrapper {
-  border-radius: var(--br-61xl);
-  background-color: var(--color-white);
+.div32,
+.div42 {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: var(--padding-xl);
-  font-size: var(--font-size-xl);
-  color: var(--color-black);
 }
-.page6,
-.text65frame {
+.div42 {
+  flex: 1;
+}
+.div32 {
+  gap: var(--gap-61xl);
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-arimo);
+}
+.div32,
+.div49,
+.page-3 {
+  align-self: stretch;
+}
+.page-3 {
+  background-color: var(--color-white);
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  gap: var(--gap-mini);
+  padding: var(--padding-61xl);
+  gap: var(--gap-61xl);
 }
-.page6 {
-  align-self: stretch;
-  background-color: var(--color-black);
-  height: 720px;
-  overflow: hidden;
-  flex-shrink: 0;
-  justify-content: center;
-  text-align: center;
-  font-size: var(--font-size-11xl);
-  color: var(--color-white);
-  font-family: var(--font-roboto);
-}
-.interesuj-cie-moja,
-.kontakt2 {
-  margin: 0;
+.div49 {
+  flex: 1;
   position: relative;
-  font-size: 50px;
-  font-weight: 900;
+}
+.div48,
+.div50 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.div50 {
+  flex: 1;
+}
+.div48 {
+  align-self: stretch;
+  gap: var(--gap-61xl);
+}
+.online-marketing-dla {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
   font-family: inherit;
 }
-.interesuj-cie-moja {
+.div53 {
+  flex: 1;
+  text-align: right;
+}
+.div51,
+.div53 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.a-business-man-working-with-bi {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.analiza,
+.div57 {
+  align-self: stretch;
+}
+.div57 {
+  height: 366px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.analiza {
+  margin: 0;
+  position: relative;
   font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.wstpna-konsultacja-i-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  text-align: left;
+}
+.div56,
+.div58 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.div58 {
+  align-self: stretch;
+}
+.div56 {
+  flex: 1;
+}
+.tworzenie-stron {
+  font-family: var(--font-arimo);
+}
+.div55,
+.div63 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.div63 {
+  height: 367px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.div55 {
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-21xl);
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-arimo);
+}
+.interesuj-cie-moja {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
 }
 .vector-icon {
   position: absolute;
@@ -557,43 +524,55 @@ video.bgvid {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 .vector-icon1 {
   position: absolute;
-  height: 68.88%;
-  width: 84.42%;
-  top: 15.56%;
-  right: 7.79%;
-  bottom: 15.56%;
-  left: 7.79%;
+  height: 69%;
+  width: 84.5%;
+  top: 15.5%;
+  right: 7.75%;
+  bottom: 15.5%;
+  left: 7.75%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
+.gmailicon,
 .ndmesssagmailcom {
-  text-decoration: underline;
+  text-decoration: none;
   position: relative;
-  font-weight: 900;
+}
+.gmailicon {
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.ndmesssagmailcom {
+  font-weight: 700;
   color: inherit;
 }
 .gmailframe {
+  align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: var(--gap-11xl);
-  text-align: center;
+  padding: 0 var(--padding-xl);
+  gap: var(--gap-xl);
 }
 .group-icon,
 .vector-icon2,
 .vector-icon4 {
   position: absolute;
-  height: 83.33%;
-  width: 83.33%;
-  top: 8.33%;
-  right: 8.33%;
-  bottom: 8.33%;
-  left: 8.33%;
+  height: 83.25%;
+  width: 83.25%;
+  top: 8.25%;
+  right: 8.5%;
+  bottom: 8.5%;
+  left: 8.25%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -608,99 +587,93 @@ video.bgvid {
   left: 0;
 }
 .vector-icon4 {
-  height: 82.81%;
-  width: 79.69%;
-  top: 7.03%;
-  right: 10.16%;
-  bottom: 10.16%;
-  left: 10.16%;
+  height: 82.75%;
+  width: 79.75%;
+  top: 7%;
+  right: 10%;
+  bottom: 10.25%;
+  left: 10.25%;
 }
-.page71,
+.div70,
 .social-media {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: var(--gap-xl);
 }
 .social-media {
-  flex-direction: row;
-  padding: 16px;
-  gap: 16px;
-}
-.page71 {
   align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-xl);
+}
+.div70 {
   flex: 1;
   overflow: hidden;
   flex-direction: column;
-  gap: var(--gap-11xl);
 }
-.googlemap3 {
-  border: 0;
-  position: relative;
-  background-color: var(--color-gray-100);
-  width: 500px;
-  height: 500px;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.page72 {
+.googlebussnies {
   align-self: stretch;
   flex: 1;
-  padding: var(--padding-11xl) 0;
-}
-.page7,
-.page72,
-.page7frame {
+  position: relative;
+  background-color: var(--color-black);
   overflow: hidden;
+}
+.div69,
+.div71 {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-.page7frame {
+.div71 {
   flex: 1;
-  background-color: var(--color-black);
-  height: 720px;
-  gap: var(--gap-11xl);
+  height: 500px;
 }
-.page7 {
+.div69 {
   align-self: stretch;
-  text-align: left;
+  gap: var(--gap-61xl);
+  text-align: center;
   font-size: var(--font-size-6xl);
-  color: var(--color-white);
-  font-family: var(--font-roboto);
+  font-family: var(--font-arimo);
 }
 .copyright-2023 {
   margin: 0;
+  flex: 1;
   position: relative;
   font-weight: 700;
 }
-.footerframe {
-  align-self: stretch;
-  flex: 1;
-  background-color: var(--color-black);
-  overflow: hidden;
-}
-.footer,
-.footerframe,
+.footer-1,
+.footer-frame,
 .site {
   display: flex;
-  flex-direction: column;
   align-items: center;
+}
+.footer-frame {
+  align-self: stretch;
+  flex-direction: row;
   justify-content: center;
 }
-.footer {
-  align-self: stretch;
-  height: 100px;
+.footer-1,
+.site {
   overflow: hidden;
-  flex-shrink: 0;
-  text-align: justify;
-  font-size: var(--font-size-base);
-  color: var(--color-white);
-  font-family: var(--font-roboto);
+  flex-direction: column;
+}
+.footer-1 {
+  align-self: stretch;
+  background-color: var(--color-white);
+  justify-content: center;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-arimo);
 }
 .site {
   position: relative;
   width: 100%;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-black);
+  font-family: var(--font-rubik-one);
 }
 #progress {
   position: fixed;
@@ -725,270 +698,172 @@ video.bgvid {
   font-size: 35px;
   color: #ffffff;
 }
-@media screen and (max-width: 1920px) {
-  .kontakt {
-    width: auto;
-    align-self: unset;
-    align-items: center;
-    justify-content: flex-end;
-  }
-  .navbarkontakt {
-    gap: var(--gap-81xl);
-  }
-  .uslugi,
-  .uslugi1,
-  .uslugi2,
-  .uslugi3 {
-    width: auto;
-    align-self: unset;
-    align-items: center;
-    justify-content: flex-end;
-  }
-  .navbarkontakt1 {
-    gap: var(--gap-11xl);
-  }
-  .przygotowanie-nieruchomoci-do {
-    width: 800px;
-  }
-  .page1 {
-    height: 1080px;
-  }
-  .main,
-  .main1 {
+iframe{
+  filter: invert(100%);
+}
+@media screen and (max-width: 1366px) {
+  .div1,
+  .div2 {
     flex: unset;
     align-self: stretch;
   }
-  .main1 {
-    height: 1080px;
+  .div2 {
+    align-items: center;
+    justify-content: center;
   }
-  .page2 {
+  .div {
     flex-direction: column;
   }
-  .czy-chcesz-by,
-  .dlaczego-warto-mi-container2,
-  .film-promocyjny-to,
-  .filmiki-z-drona-container,
-  .filmy-promocyjne-dla {
-    width: 1200px;
-  }
-  .page3 {
-    height: auto;
-  }
-  .page42 {
+  .div12,
+  .div16,
+  .div4,
+  .div8 {
     flex: unset;
     align-self: stretch;
   }
-  .page4 {
+  .div3 {
     flex-direction: column;
   }
-  .page51,
-  .page52,
-  .page7frame {
+  .div26 {
+    display: none;
+  }
+  .div26,
+  .div27 {
     flex: unset;
     align-self: stretch;
   }
-  .page7 {
+  .div25 {
+    flex-direction: column;
+  }
+  .div33,
+  .div42 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .div42 {
+    display: none;
+  }
+  .div32 {
+    flex-direction: column;
+  }
+  .div49,
+  .div57 {
+    display: none;
+  }
+  .div56 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .div63 {
+    display: none;
+  }
+  .div55 {
+    flex-direction: column;
+  }
+  .div70,
+  .div71 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .div69 {
     flex-direction: column;
   }
 }
-@media screen and (max-width: 1280px) {
-  .navbarkontakt {
-    gap: var(--gap-81xl);
+@media screen and (max-width: 768px) {
+  .ndmessa {
+    font-size: 45px;
+    text-align: center;
+    flex: 1;
   }
-  .navbarkontakt1 {
+  .div,
+  .div1 {
+    align-items: center;
+  }
+  .div1 {
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .div {
+    justify-content: center;
+  }
+  .filmy-promocyjne,
+  .przygotowanie-nieruchomoci {
+    font-size: var(--font-size-6xl);
+  }
+  .przygotowanie-nieruchomoci1 {
+    font-size: var(--font-size-11xl);
+  }
+  .div21 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .div23 {
+    text-align: center;
+  }
+  .div22 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .div20,
+  .div28 {
     flex-direction: column;
-    gap: var(--gap-11xl);
-  }
-  .przygotowanie-nieruchomoci-do {
-    font-weight: 500;
-    font-family: var(--font-roboto);
-    width: 420px;
-  }
-  .page1 {
-    height: 800px;
-  }
-  .planujesz-sprzeda-lub {
-    font-size: var(--font-size-mini);
-  }
-  .co-oferuj {
-    font-size: var(--font-size-6xl);
-  }
-  .filmiki-promocyjne-z-container {
-    font-size: var(--font-size-mini);
-  }
-  .dlaczego-warto-mi-container {
-    font-size: var(--font-size-6xl);
-  }
-  .nie-jestem-porednikiem {
-    font-size: var(--font-size-mini);
-  }
-  .main {
-    height: 800px;
-  }
-  .googlemap {
-    width: 400px;
-    height: 400px;
-  }
-  .main1 {
-    height: 600px;
-  }
-  .filmy-promocyjne-dla {
-    font-size: var(--font-size-6xl);
-    width: 700px;
-  }
-  .czy-chcesz-by,
-  .filmiki-z-drona-container {
-    font-size: var(--font-size-mini);
-    width: 700px;
-  }
-  .dlaczego-warto-mi-container2 {
-    font-size: var(--font-size-6xl);
-    width: 700px;
-  }
-  .film-promocyjny-to {
-    font-size: var(--font-size-mini);
-    width: 700px;
-  }
-  .monta-filmw-promocyjnych,
-  .o-mojej-usudze {
-    font-size: var(--font-size-6xl);
-  }
-  .kady-film-to {
-    font-size: var(--font-size-mini);
-  }
-  .page42 {
-    height: 800px;
   }
   .online-marketing-dla {
-    font-size: var(--font-size-6xl);
+    font-size: var(--font-size-11xl);
+    text-align: center;
   }
-  .dziki-mojej-wiedzy,
-  .rozwijasz-may-biznes {
-    font-size: var(--font-size-mini);
+  .div51,
+  .div53 {
+    align-items: center;
+    justify-content: center;
   }
-  .page51 {
-    height: 500px;
-  }
-  .analiza {
-    font-size: var(--font-size-6xl);
-    width: 700px;
-  }
-  .wstpna-konsultacja-i-container {
-    font-size: var(--font-size-mini);
-    width: 700px;
-  }
-  .page71 {
+  .div53 {
     flex: unset;
     align-self: stretch;
   }
-  .googlemap3 {
-    width: 400px;
-    height: 400px;
-  }
-  .page72 {
-    flex: unset;
-    align-self: stretch;
-  }
-  .page7frame {
-    flex: 1;
+  .div51 {
     flex-direction: column;
   }
-  .page7 {
+  .gmailframe {
+    align-self: stretch;
+    width: auto;
     flex-direction: row;
+  }
+  .div70 {
+    width: auto;
+    align-self: unset;
+    align-items: center;
+    justify-content: center;
   }
   .copyright-2023 {
     font-size: var(--font-size-base);
   }
 }
 @media screen and (max-width: 412px) {
-  .navbarkontakt {
-    gap: var(--gap-81xl);
-  }
-  .przygotowanie-nieruchomoci {
+  .ndmessa {
     text-align: center;
   }
-  .uslugi {
-    width: 220px;
-    align-items: center;
-    justify-content: flex-end;
-  }
-  .navbarkontakt1 {
-    gap: var(--gap-mini);
-    padding-top: 150px;
-    box-sizing: border-box;
-  }
-  .przygotowanie-nieruchomoci-do {
-    width: 360px;
-  }
-  .co-oferuj,
-  .dlaczego-warto-mi-container,
-  .filmiki-promocyjne-z-container,
-  .nie-jestem-porednikiem,
-  .planujesz-sprzeda-lub {
-    width: 320px;
-  }
-  .main {
-    height: 1100px;
+  .div1 {
     align-items: center;
     justify-content: center;
   }
-  .googlemap {
-    width: 320px;
-    height: 400px;
+  .domki-noclegowe,
+  .filmy-promocyjne-domkw,
+  .planujesz-sprzeda-lub-container {
+    font-size: var(--font-size-mini);
   }
-  .main1 {
-    height: 915px;
-    align-items: center;
-    justify-content: center;
+  .div36 {
+    flex: unset;
+    align-self: stretch;
   }
-  .czy-chcesz-by,
-  .dlaczego-warto-mi-container2,
-  .film-promocyjny-to,
-  .filmiki-z-drona-container,
-  .filmy-promocyjne-dla {
-    width: 320px;
-  }
-  .page3 {
-    align-items: center;
-    justify-content: center;
-  }
-  .kady-film-to,
-  .monta-filmw-promocyjnych,
-  .o-mojej-usudze {
-    width: 320px;
-  }
-  .page42 {
-    height: 1100px;
-    align-items: center;
-    justify-content: center;
-  }
-  .dziki-mojej-wiedzy,
-  .online-marketing-dla,
-  .rozwijasz-may-biznes {
-    width: 320px;
-  }
-  .page51 {
-    align-items: center;
-    justify-content: center;
-  }
-  .googlemap2 {
-    width: 320px;
-  }
-  .page52 {
-    align-items: center;
-    justify-content: center;
+  .div35 {
+    flex-direction: column;
   }
   .analiza,
   .wstpna-konsultacja-i-container {
-    width: 320px;
-  }
-  .text65frame {
-    flex: 1;
-  }
-  .page6 {
-    height: 1100px;
-    align-items: center;
-    justify-content: center;
+    font-size: var(--font-size-mini);
   }
   .interesuj-cie-moja {
     text-align: center;
@@ -1002,21 +877,10 @@ video.bgvid {
   .social-media {
     gap: 8px;
   }
-  .page71 {
-    gap: 10px;
+  .div70 {
+    gap: var(--gap-3xs);
     padding-top: 15px;
     box-sizing: border-box;
-  }
-  .googlemap3 {
-    width: 500px;
-  }
-  .googlemap3,
-  .page72 {
-    height: 550px;
-  }
-  .page7 {
-    align-items: center;
-    justify-content: center;
   }
   .copyright-2023 {
     font-size: var(--font-size-base);
