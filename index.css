@@ -698,9 +698,6 @@
   font-size: 35px;
   color: #ffffff;
 }
-iframe{
-  filter: invert(100%);
-}
 @media screen and (max-width: 1366px) {
   .div1,
   .div2 {
