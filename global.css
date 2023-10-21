@@ -5,32 +5,30 @@ body {
 
 :root {
   /* fonts */
-  --font-roboto: Roboto;
+  --font-arimo: Arimo;
+  --font-rubik-one: "Rubik One";
 
   /* font sizes */
+  --font-size-xl: 20px;
   --font-size-base: 16px;
   --font-size-6xl: 25px;
-  --font-size-xl: 20px;
-  --font-size-mini: 15px;
+  --font-size-31xl: 50px;
   --font-size-11xl: 30px;
-  --font-size-5xl: 24px;
+  --font-size-mini: 15px;
 
   /* Colors */
-  --color-black: #000;
   --color-white: #fff;
-  --color-gray-100: #757575;
-  --color-gray-200: rgba(255, 255, 255, 0.5);
+  --color-black: #000;
 
   /* Gaps */
-  --gap-11xl: 30px;
-  --gap-mini: 15px;
-  --gap-81xl: 100px;
+  --gap-61xl: 80px;
+  --gap-xl: 20px;
+  --gap-3xs: 10px;
+  --gap-21xl: 40px;
+  --gap-340xl: 359px;
 
   /* Paddings */
-  --padding-11xl: 30px;
+  --padding-61xl: 80px;
   --padding-xl: 20px;
-  --padding-5xs: 8px;
-
-  /* Border radiuses */
-  --br-61xl: 80px;
+  --padding-3xs: 10px;
 }
